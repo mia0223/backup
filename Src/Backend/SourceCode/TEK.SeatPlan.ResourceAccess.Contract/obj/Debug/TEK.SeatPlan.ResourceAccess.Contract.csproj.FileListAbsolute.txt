@@ -1,0 +1,9 @@
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess.Contract\bin\Debug\TEK.SeatPlan.ResourceAccess.Contract.dll
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess.Contract\bin\Debug\TEK.SeatPlan.ResourceAccess.Contract.pdb
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess.Contract\bin\Debug\TEK.SeatPlan.ResourceAccess.Contract.dll.CodeAnalysisLog.xml
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess.Contract\bin\Debug\TEK.SeatPlan.ResourceAccess.Contract.dll.lastcodeanalysissucceeded
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess.Contract\bin\Debug\TEK.SeatPlan.Entity.dll
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess.Contract\bin\Debug\TEK.SeatPlan.Entity.pdb
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess.Contract\obj\Debug\TEK.SeatPlan.ResourceAccess.Contract.csprojResolveAssemblyReference.cache
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess.Contract\obj\Debug\TEK.SeatPlan.ResourceAccess.Contract.dll
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess.Contract\obj\Debug\TEK.SeatPlan.ResourceAccess.Contract.pdb

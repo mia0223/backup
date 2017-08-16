@@ -1,0 +1,74 @@
+[
+    {
+        "key": "location",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/location"
+    },
+    {
+        "key": "seatlocation",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/SeatLocation"
+    },
+    {
+        "key": "version",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/version"
+    },
+    {
+        "key": "project",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/project"
+    },
+    {
+        "key": "projectlocation",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/ProjectLocation"
+    },
+    {
+        "key": "seat",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/seat"
+    },
+    {
+        "key": "employee",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/employee"
+    },
+    {
+        "key": "employeeseat",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/employeeseat"
+    },
+    {
+        "key": "seatchangelog",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/SeatChangeLog"
+    },
+    {
+        "key": "email",
+        "value": "%%PROTOCOL%%//%%DOMAIN%%/api/Email"
+    },
+    {
+      "key": "employeestatus",
+      "value": "%%PROTOCOL%%//%%DOMAIN%%/api/EmployeeStatus"
+    },
+    {
+      "key": "emailtemplate",
+      "value": "%%PROTOCOL%%//%%DOMAIN%%/api/EmailTemplate"
+    },
+    {
+        "key": "toaster",
+        "value": {
+          "positionClass": "toast-top-full-width",
+          "showCloseButton": true,
+          "timeout": 0,
+          "closeHtml": "<button class='material-icons'>highlight_off</button>"
+        }
+    },
+    {
+        "key": "defaultemailreceiver",
+        "value": {
+            "to": [],
+            "cc": [
+                {
+                    "email": "TGS_Servicedesk@teksystems.com",
+                    "type": "cc"
+                }, {
+                    "email": "mhatajlo@teksystems.com",
+                    "type": "cc"
+                }
+            ]
+        }
+    }
+]

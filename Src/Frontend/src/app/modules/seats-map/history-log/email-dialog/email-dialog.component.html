@@ -1,0 +1,68 @@
+<div class="email-dialog" style="height:90vh;">
+    <md-dialog-content>
+        <div class="email-dialog-header">
+            <md-icon class="icon-close"
+                (click)="closeEmailDialog()">close</md-icon>
+        </div>
+
+        <div class="email-address" *ngFor="let type of receiverTypes">
+            <div>
+                {{type}}:
+            </div>
+            <div>
+                <md-chip-list disabled>
+                    <md-chip disabled class="name-tag" *ngFor="let item of emailList[type]">
+                        {{item.email}}
+                        <span (click)="removeEmail(item)">x</span>
+                    </md-chip>
+                    <div class="email-search-bar">
+                        <email-search-bar [type]="type"></email-search-bar>
+                    </div>
+                </md-chip-list>
+            </div>
+        </div>
+
+
+        <div class="email-text">
+            <div>
+                Please Read: Change of Seating Assignment<br/><br/>
+            </div>
+            <div class="html-editor">
+              <div [innerHTML]="emailContentSection.contentSection1"></div>
+            </div>
+        </div>
+
+        <div class="history-log-table">
+            <table>
+                <tr>
+                    <th>NAME</th>
+                    <th>CURRENT DESK</th>
+                    <th>NEW DESK</th>
+                    <th>PROJECT</th>
+                </tr>
+                <tr *ngFor="let changeLog of selectedSeatLogList">
+                    <td>{{changeLog.employee.lastName}}, {{changeLog.employee.firstName}}</td>
+                    <td>{{changeLog.sourceSeat.transit ? 'Transit Seat' : changeLog.sourceSeat.number}}</td>
+                    <td>{{changeLog.targetSeat.transit ? 'Transit Seat' : changeLog.targetSeat.number}}</td>
+                    <td>{{changeLog.employee.project.internal ? 'Internal' : 'External'}} - {{changeLog.employee.project.name}}</td>
+                </tr>
+            </table>
+        </div>
+
+
+    <div class="move-guideline">
+        <div class="html-editor">
+          <app-tinymce [(ngModel)]="emailContentSection.contentSection2"></app-tinymce>
+        </div>
+    </div>
+
+    <div class="send-email-button">
+        <button md-raised-button
+            color="primary"
+            (click)="sendEmail()">
+            SEND
+        </button>
+    </div>
+    </md-dialog-content>
+
+</div>

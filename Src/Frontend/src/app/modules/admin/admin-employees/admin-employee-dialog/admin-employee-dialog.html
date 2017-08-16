@@ -1,0 +1,72 @@
+<div class = "admin-dialog" *ngIf = "currentState == state.main">
+  <h3 *ngIf="!data.isEdit" md-dialog-title>Add New Employee</h3>
+  <h3 *ngIf="data.isEdit" md-dialog-title>Edit Employee</h3>
+  <md-dialog-content>
+    <br>
+    <md-input-container class="mat-input-static-text">
+      <input mdInput #lastName="ngModel" placeholder="Last Name" [(ngModel)]="newEmployee.lastName" required>
+    </md-input-container>
+    <br><br>
+    <md-input-container class="mat-input-static-text">
+      <input mdInput #firstName="ngModel" placeholder="First Name" [(ngModel)]="newEmployee.firstName" required>
+    </md-input-container>
+    <br><br>
+    <md-input-container [color] = "InputBoxUnderlineColor()" class="mat-input-static-text">
+      <input mdInput placeholder="Email" #email="ngModel" pattern="^\w+([\.-]?\w+)*@teksystems.com$" [(ngModel)]="newEmployee.email" required (change)="emailChange()" (keyup)="emailChange()" >
+    </md-input-container>
+    <br>
+    <span class="warningLabel" [hidden]="validEmail">Email should be unique.</span>
+    <span class="warningLabel" *ngIf="email.errors && email.errors.pattern">Please enter a valid email address.</span>
+    <br>
+    <md-select class = "mat-select" [(ngModel)]="newEmployee.project" (change)="projectChange()" placeholder="Project Name" required>
+      <md-option *ngFor="let project of projects" [value]="project">
+        {{project.description}} - ({{project.name}})
+      </md-option>
+    </md-select>
+    <br><br>
+    <md-select class = "mat-select" [(ngModel)]="newEmployee.status" placeholder="Status">
+      <md-option *ngFor="let s of status" [value]="s">
+        {{s.name}}
+      </md-option>
+    </md-select>
+
+    <br>
+    <div *ngIf="newEmployee.status.name !== 'On Leave'">
+    <br>
+    <md-checkbox *ngIf="data.isEdit" color="primary" disableRipple [(ngModel)]="newEmployee.seat.transit" (change)="selectTransit(newEmployee.seat)">In Transit</md-checkbox>
+    <br *ngIf="!newEmployee.seat.transit && data.isEdit"><br *ngIf="!newEmployee.seat.transit && data.isEdit">
+    <md-input-container [color] = "InputBoxUnderlineColor()" class="mat-input-static-text seat-number" *ngIf="!newEmployee.seat.transit">
+      <input mdInput *ngIf="!newEmployee.seat.transit" type = "number" placeholder="Seat Number" [(ngModel)]="targetSeatNumber" required (change)="childSeatChange()" (keyup)="childSeatChange()">
+    </md-input-container>
+    <br>
+    <span class = "warningLabel" [hidden]="validSeat">This seat number doesn't exist</span>
+    <br *ngIf="!validSeat">
+    </div>
+    <br><br>
+    <br *ngIf="!data.isEdit"><br *ngIf="!data.isEdit">
+  </md-dialog-content>
+  <br>
+  <div fxLayoutAlign="end center" style="position: absolute; bottom: 10px; right: 5px">
+    <button md-button class='mat-primary' md-dialog-close>CANCEL</button>
+    <button md-button class='mat-primary' *ngIf="!data.isEdit"
+            [disabled]="!lastName.value || !firstName.value || !email.valid || !projectChanged || !seatChanged || !validSeat"
+            (click)="createEmployee(newEmployee)">CREATE</button>
+    <button md-button class='mat-primary' *ngIf="data.isEdit"
+            [disabled]="!validSeat || !validEmail || (email.errors && email.errors.pattern)"
+            (click)="updateEmployee(newEmployee)">SAVE</button>
+  </div>
+</div>
+
+<div class = "confirmationDialog"  fxLayout="column" *ngIf = "currentState == state.confirmation">
+  <span class = "heading" fxFlex = "20" >Confirmation Message</span>
+  <md-dialog-content fxFlex = "70" fxLayout="column" fxLayoutAlign="center" class="content">
+    <span>The seat <b>#{{targetSeatNumber}}</b> is already taken by <b>{{employeeToReplace}}</b>.<br>Do you want to continue with the move?</span>
+  </md-dialog-content>
+  <br>
+  <div fxLayoutAlign="end center">
+    <button md-button class='mat-primary' (click)="cancelConfirmation()">CANCEL</button>
+    <button md-button class='mat-primary' (click)="confirmChanges()" *ngIf="data.isEdit">CONFIRM</button>
+    <button md-button class='mat-primary' (click)="confirmCreation()" *ngIf="!data.isEdit">CONFIRM</button>
+  </div>
+</div>
+<br>

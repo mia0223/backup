@@ -1,0 +1,35 @@
+<div class="seat-card"
+     dnd-draggable
+     [dragEnabled]="!!item?.employee"
+     [dragData]="item"
+     [style.top]="top"
+     [style.left]="left"
+     (dblclick)="openDialog($event)">
+  <div dnd-droppable [dropEnabled] = "!(item?.transit && item?.employee)"
+       (onDropSuccess)="onDropSuccess($event)">
+    <div class="seat-card-content"
+         *ngIf="!isEmptySeat()"
+         [style.background-color]="getProject()?.backgroundColor"
+         [style.border-color]="getProject()?.backgroundColor">
+      <div *ngIf="item?.employee?.project?.name !== 'onboarding'">
+        <div class="capitalize seat-card-project"
+             *ngIf="item?.employee?.project?.name !== 'Bench'"
+             [style.color]="getProject()?.foregroundColor">
+          {{item?.employee?.project?.name}}
+        </div>
+        <div class="capitalize">
+          <div>{{item?.employee?.lastName}},</div>
+          <div>{{item?.employee?.firstName}}</div>
+        </div>
+      </div>
+      <div *ngIf="!item?.transit" class="seat-card-number">
+        {{item?.number}}
+      </div>
+    </div>
+    <div *ngIf="isEmptySeat()" class="seat-card-content seat-card-content-empty">
+      <div *ngIf = "!item?.transit" class="seat-card-number">
+        {{item?.number}}
+      </div>
+    </div>
+  </div>
+</div>

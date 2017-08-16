@@ -1,0 +1,16 @@
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\TEK.SeatPlan.Common.UnitTest.dll
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\TEK.SeatPlan.Common.UnitTest.pdb
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Castle.Core.dll
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Moq.dll
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Castle.Core.xml
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\bin\Debug\Moq.xml
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\obj\Debug\TEK.SeatPlan.Common.UnitTest.dll
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\obj\Debug\TEK.SeatPlan.Common.UnitTest.pdb
+C:\Source\SeatPlan\Src\Backend\Tests\TEK.SeatPlan.Common.UnitTest\obj\Debug\TEK.SeatPlan.Common.UnitTest.csprojResolveAssemblyReference.cache

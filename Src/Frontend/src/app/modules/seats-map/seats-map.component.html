@@ -1,0 +1,37 @@
+<md-sidenav-container>
+    <md-sidenav #historyPanel align="end" mode="side" disableClose class="history-log">
+        <history-log [historyPanel]="historyPanel"></history-log>
+    </md-sidenav>
+
+    <div class="seat-map"
+        fxLayout="column"
+        fxLayoutAlign="space-between stretch">
+        <header
+            fxLayout="row"
+            fxFlex="70px"
+            fxLayoutAlign="space-between center">
+                <div
+                    fxFlex="150px"
+                    class="locations">
+                </div>
+                <div
+                    fxFlex
+                    fxLayoutAlign="left center"
+                    class="projects">
+                </div>
+                <div
+                    fxFlex="300px"
+                    class="search-bar">
+                </div>
+                <app-admin-dropdown></app-admin-dropdown>
+                <div class="history-log-icon-wrapper"
+                    fxFlex="100px"
+                    fxLayoutAlign="right center">
+                    <i class="material-icons history-log-icon"
+                        (click)="historyPanel.open()">sync</i>
+
+                </div>
+        </header>
+        <app-seats></app-seats>
+    </div>
+</md-sidenav-container>

@@ -1,0 +1,148 @@
+.email-dialog {
+  width: 800px;
+}
+
+.email-dialog-header {
+    background-color: #00607E;
+    color: white;
+}
+
+.email-address {
+    font-size: 12px;
+    display: flex;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    border-bottom: 1px solid #F6F4F2;
+    align-items: baseline;
+}
+
+.email-address>div {
+    padding-right: 15px;
+}
+
+.email-address>div:first-of-type {
+    color: #8F887E;
+}
+
+.email-search-bar {
+    width: 180px;
+    padding-left: 3px;
+}
+
+.name-tag {
+    margin: 0 3px 5px 0 !important;
+    min-width: 200px;
+    height: 13px;
+    text-align: start;
+}
+
+.name-tag>span {
+    float: right;
+    padding-left: 20px;
+}
+
+.name-tag>span {
+    cursor: pointer;
+}
+
+.icon-close {
+    position: relative;
+    left: 95%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #0FA2B3;
+    cursor: pointer;
+}
+
+.mat-chip-list-wrapper {
+    align-items: baseline !important;
+}
+
+.mat-dialog-container {
+    padding: 0 !important;
+  height: auto !important;
+}
+.email-dialog>.mat-dialog-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-height: 100% !important;
+    overflow-x: hidden;
+}
+
+.email-text {
+    padding-left: 20px;
+}
+
+.email-text>div:first-of-type {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.email-text>div:last-of-type {
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.history-log-table {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.history-log-table>table {
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 85%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.history-log-table>td, th {
+    text-align: left;
+}
+
+.history-log-table th {
+    border-bottom: 3px solid #A59F95;
+    padding-bottom: 5px;
+}
+
+.history-log-table td {
+    color: #B7B3AB;
+    border-bottom: 1px solid #B7B3AB;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.history-log-table tr:nth-child(2) td {
+    padding-top: 20px;
+}
+
+.send-email-button {
+    padding: 20px;
+}
+
+.move-guideline>div {
+    color: #67655F;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.move-guideline>ul {
+    color: #7B7870;
+    font-size: 14px;
+    max-width: 700px;
+    line-height: 24px;
+}
+
+.email-send-date-input {
+    width: 25%;
+}
+
+.html-editor {
+  padding-right: 10px;
+  margin-right: 10px;
+}
+

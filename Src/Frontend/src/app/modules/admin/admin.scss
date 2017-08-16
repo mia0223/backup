@@ -1,0 +1,123 @@
+/* Structure */
+.table-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+table{
+  display:block;
+  margin: 20px;
+  margin-top: 10px;
+  border-collapse: collapse;
+  font-size: 12px;
+
+  thead{
+    display:block;
+    font-weight: bold;
+  }
+
+  tbody{
+    display:block;
+    overflow-y: scroll;
+    max-height:95%;
+  }
+
+  tr{
+    border-bottom: 1px solid lightgray;
+  }
+
+  .table-data {
+    cursor:pointer;
+  }
+
+  .table-data:hover td{
+    background-color: #e3e3e3 !important;
+  }
+
+  td{
+    width:200px;
+    padding: 10px 5px 10px 5px;
+    &.delete{
+      width: 60px;
+      align-content: center;
+    }
+  }
+}
+
+
+.md-tabs-centered-wrapper{
+  display:flex;
+  justify-content:center;
+  margin:auto;
+}
+
+.mat-tab-nav-bar{
+  border: none;
+}
+
+.project-item {
+  padding: 0 15px 0 0;
+  cursor: default;
+
+  &__bullet {
+    font-size: 16px;
+    float: left;
+    line-height: 18px;
+
+    &.empty {
+      color: grey;
+    }
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 18px;
+    white-space: nowrap;
+    display: block;
+  }
+}
+
+.delete-icon{
+  cursor: pointer;
+
+    &.bench{
+    cursor: auto;
+    color: grey;
+  }
+}
+
+.delete-icon:hover {
+  color: #006fa6;
+
+  &.bench{
+    cursor: auto;
+    color: grey;
+  }
+}
+.back {
+  margin:20px;
+  cursor: pointer;
+}
+
+.settings-icon{
+  color:lightgray;
+  font-size:18px;
+  padding: 2px 8px 2px 8px;
+  margin: 0 0 0 8px;
+  border-left: solid 1px lightgray;
+  border-right: solid 1px lightgray;
+}
+
+.mat-subheader{
+  background-color: lightgray;
+}
+
+
+.admin-button{
+  margin-left: 1200px;
+  position: relative;
+  top: -30px;
+}
+

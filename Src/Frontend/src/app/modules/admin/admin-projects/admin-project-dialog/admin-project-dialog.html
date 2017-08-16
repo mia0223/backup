@@ -1,0 +1,32 @@
+<div class = "project-dialog">
+  <h3 *ngIf="!data.isEdit" md-dialog-title>New Project</h3>
+  <h3 *ngIf="data.isEdit" md-dialog-title>Edit Project</h3>
+  <md-dialog-content>
+    <md-input-container class="mat-input-static-text">
+      <input mdInput #projectName="ngModel" placeholder="Project Name" [(ngModel)]="newProject.description" [value]="newProject.description" required>
+    </md-input-container>
+    <br><br>
+    <md-input-container class="mat-input-static-text">
+      <input mdInput placeholder="Acronym" [(ngModel)]="newProject.name" (change)="acronymChange()" (keyup)="acronymChange()" [value]="newProject.name" maxlength="4" required>
+    </md-input-container>
+    <br [hidden]="validAcronym">
+    <span class = "warningLabel" [hidden]="validAcronym">This acronym already exists.</span>
+    <br><br><br>
+    <md-checkbox color="primary" disableRipple [(ngModel)]="newProject.internal">
+      Internal Project
+    </md-checkbox>
+    <br><br><br *ngIf="data.isEdit">
+
+ <search-employee (employeeChange)="ManagerChange($event)" [project]="newProject"></search-employee>
+    <br><br>
+
+  </md-dialog-content>
+
+  <div fxLayoutAlign="end center">
+    <button md-button class='mat-primary' md-dialog-close>CANCEL</button>
+    <button md-button *ngIf="!data.isEdit" class='mat-primary' [disabled]="!projectName.value || !acronymChanged" (click)="save()">CREATE</button>
+    <button md-button *ngIf="data.isEdit" class='mat-primary' (click)="save()">SAVE</button>
+  </div>
+</div>
+
+

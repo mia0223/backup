@@ -1,0 +1,48 @@
+<div fxLayout="column"
+fxLayoutAlign="space-between stretch">
+  <button md-fab class="admin-button" color="primary" (click)="onClickAdd()"><i class="material-icons">add</i></button>
+  <div class="table-container" fxFlex="1 1 calc(100vh - 120px)" fxLayout = "row" fxLayoutAlign="center">
+
+    <table class = "admin-table">
+      <thead>
+      <tr>
+        <td>
+          NAME
+        </td>
+        <td>
+          ACRONYM
+        </td>
+        <td>
+          TECHNICAL SERVICE MANAGER
+        </td>
+        <td class ="delete">
+        </td>
+      </tr>
+      </thead>
+      <tbody>
+
+      <tr class = 'table-data' *ngFor="let project of projects" (click) = "onClickUpdate($event, project)">
+        <td >
+          {{project.description}}
+        </td>
+        <td>
+          <i class="material-icons project-item__bullet" [ngStyle]="{color: project.backgroundColor}">lens</i>
+          <span class="project-item__text"> &nbsp;&nbsp;&nbsp; {{project.name}}</span>
+        </td>
+        <td>
+          {{project.technicalServiceManager}}
+        </td>
+        <td class ="delete" (click)="deleteProject($event, project)">
+          <i id = 'delete' *ngIf = "project.description !== 'Bench'" class = "material-icons delete-icon">
+            clear
+          </i>
+
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,2055 @@
+
+2017-07-20 10:02:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+
+
+2017-07-20 10:02:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 10:02:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 10:02:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:02:47 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+2017-07-20 10:02:47 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 10:02:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 10:02:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 10:02:47 INFO | 74 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 10:02:47 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:02:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:02:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:02:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/156
+2017-07-20 10:02:50 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:02:50 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:02:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 10:02:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 10:02:55 INFO | 74 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 10:02:55 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:03:22 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 10:03:22 DEBUG| Updating project for Employee ID=[156] to [17]
+2017-07-20 10:03:22 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 10:03:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 10:03:22 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 10:03:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+
+2017-07-20 10:03:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 10:03:24 INFO | 74 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 10:03:24 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:03:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 10:03:24 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:03:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+2017-07-20 10:03:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 10:03:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:03:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:03:30 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:03:30 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:03:30 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:03:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 10:03:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:03:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 10:03:40 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 10:03:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 10:03:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 10:03:40 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 10:03:40 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 10:03:40 INFO | 74 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:03:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 10:03:41 INFO | 74 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:03:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:03:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 10:03:44 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 10:03:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 10:03:45 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 10:03:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 10:03:45 INFO | 74 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:03:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+
+2017-07-20 10:03:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:03:46 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:04:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:04:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:04:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:04:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:04:11 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:04:11 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:04:11 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:04:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:04:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:04:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:04:18 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:04:18 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:04:18 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:05:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 10:05:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-07-20 10:05:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:05:30 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 10:05:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 10:05:30 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 10:05:30 INFO | 74 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:05:32 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 10:05:32 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 10:05:32 INFO | 74 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 10:05:32 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:05:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:05:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:05:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 10:05:36 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:05:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:05:36 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:05:37 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:05:54 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:06:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 10:06:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:06:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 10:06:07 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 10:06:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 10:06:07 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 10:06:07 INFO | 75 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:06:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 10:06:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 10:06:08 INFO | 75 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:06:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 10:06:08 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 10:06:08 INFO | 75 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:06:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:06:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+
+2017-07-20 10:06:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:06:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 10:06:28 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:06:28 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:06:28 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:06:42 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 10:06:42 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 10:07:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+
+2017-07-20 10:07:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:07:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:07:07 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:07:07 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:07:07 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:07:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:07:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:07:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:07:09 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:07:09 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:07:09 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+
+2017-07-20 10:08:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+2017-07-20 10:08:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:08:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:08:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:09:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:09:45 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:09:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:09:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:09:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:09:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:09:51 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:09:51 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:09:51 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:15:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:15:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:15:23 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:15:23 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:15:23 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:15:23 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:15:23 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 10:15:23 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:15:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:15:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:15:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:15:38 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:15:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 10:15:38 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:15:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:15:40 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 10:15:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:15:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:15:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:15:42 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:15:42 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:15:42 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:15:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:15:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:15:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:15:45 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:15:45 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:15:45 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:15:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:15:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:15:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:15:51 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:15:51 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:15:51 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:16:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:16:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:16:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:16:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:16:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:16:46 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:16:46 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:16:46 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+
+2017-07-20 10:16:53 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 10:16:53 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:16:53 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:16:53 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:16:53 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:16:53 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:20:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:20:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:20:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:20:20 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:21:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:21:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:21:57 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:23:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:23:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:23:48 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:23:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:23:54 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:23:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:23:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:23:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:23:57 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:24:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:24:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:24:05 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:25:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:25:01 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:25:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:26:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:26:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:26:19 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:26:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:26:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:26:20 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:26:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:26:22 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:26:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+2017-07-20 10:26:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:26:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:26:26 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:26:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:26:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:26:31 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:27:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:27:29 INFO | 33 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:27:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:27:41 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:27:41 INFO | 1 entities created by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:27:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:27:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:27:50 INFO | 34 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:27:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:27:56 INFO | 34 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:27:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:30:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:30:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:30:51 INFO | 34 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:30:53 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:30:53 INFO | 34 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:30:53 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:31:04 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:31:04 INFO | 1 entities created by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:31:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:31:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:31:22 INFO | 35 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:31:25 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:31:25 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:31:25 INFO | 35 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:32:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:32:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:32:26 INFO | 35 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:32:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:32:40 INFO | 35 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:32:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:32:47 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:32:47 INFO | 1 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:32:47 INFO | 1 entities updated by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:32:53 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:32:53 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:33:04 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:33:04 INFO | 1 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:33:04 INFO | 1 entities updated by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:33:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:33:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:33:28 INFO | 35 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:33:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:33:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:33:34 INFO | 35 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:33:40 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:33:40 INFO | 1 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:33:40 INFO | 1 entities updated by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:35:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:35:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:35:11 INFO | 35 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:35:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:35:15 INFO | 35 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:35:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:35:21 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:35:21 INFO | 1 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:35:21 INFO | 1 entities updated by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:35:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:35:22 INFO | 35 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:35:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:35:36 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:35:36 INFO | 1 entities created by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:35:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:35:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:35:49 INFO | 36 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+
+2017-07-20 10:35:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:35:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:35:55 INFO | 36 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:35:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:35:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:35:57 INFO | 36 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+
+2017-07-20 10:36:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:36:06 INFO | 36 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:36:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:36:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 10:36:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-07-20 10:36:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 10:36:18 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 10:36:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 10:36:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 10:36:18 INFO | 75 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 10:36:18 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:36:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:36:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:36:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/76
+2017-07-20 10:36:22 INFO | 36 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:36:22 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:36:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 10:36:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 10:36:22 INFO | 75 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 10:36:22 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:37:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:37:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:37:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 10:37:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 10:37:05 INFO | 36 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:37:05 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:37:05 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:37:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 10:37:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-07-20 10:37:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 10:37:08 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 10:37:08 INFO | 36 entities retrieved by user: CORPORATE\chewang
+RootType: Project, details: TEK.SeatPlan.Entity.Project
+2017-07-20 10:37:08 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 10:44:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:44:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:46:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:46:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 10:51:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 10:51:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:15:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 14:15:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+
+2017-07-20 14:15:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 14:15:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:15:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:15:45 INFO | Get all project called - find in repo
+2017-07-20 14:15:46 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:15:46 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+
+
+2017-07-20 14:16:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 14:16:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 14:16:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 14:16:21 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+
+2017-07-20 14:16:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:16:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:16:22 INFO | 75 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:16:22 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:16:22 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 14:16:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:16:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:16:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-07-20 14:16:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:16:31 INFO | Get all project called - find in repo
+2017-07-20 14:16:31 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:16:32 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:16:48 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:16:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:16:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:17:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:17:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 14:17:03 INFO | Get all project called - find in repo
+2017-07-20 14:17:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:17:03 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:17:03 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:17:18 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:17:18 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:17:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 14:17:21 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 14:17:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-07-20 14:17:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 14:17:21 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:17:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:17:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:17:21 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:17:21 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:17:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:17:21 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:17:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:17:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:17:31 INFO | Get all project called - find in repo
+
+2017-07-20 14:17:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/161
+2017-07-20 14:17:31 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+
+2017-07-20 14:17:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:17:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:17:31 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:17:31 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:17:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:17:31 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:17:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:17:37 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:17:37 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:17:37 INFO | Get all project called - find in repo
+
+2017-07-20 14:17:37 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:17:37 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:17:37 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:17:51 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:17:51 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:17:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-07-20 14:17:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:17:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:17:54 INFO | Get all project called - find in repo
+2017-07-20 14:17:54 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:17:54 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:18:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:18:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-07-20 14:18:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 14:18:00 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:18:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:18:00 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:18:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:18:00 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 14:18:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:18:00 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:18:00 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:18:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:18:00 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:18:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:18:02 INFO | Get all project called - find in repo
+
+2017-07-20 14:18:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/161
+
+2017-07-20 14:18:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:18:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:18:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:18:02 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:18:02 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:18:02 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:18:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:18:02 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:18:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:18:03 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:19:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 14:19:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:19:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-07-20 14:19:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 14:19:06 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:19:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:19:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:19:06 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 14:19:06 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:19:07 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:19:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:19:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:19:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:19:11 INFO | Get all project called - find in repo
+
+2017-07-20 14:19:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:19:11 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:19:11 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:19:22 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:19:22 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:19:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:19:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:19:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 14:19:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 14:19:39 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+2017-07-20 14:19:39 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 14:19:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:19:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:19:39 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:19:39 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:19:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:19:39 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:19:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 14:19:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 14:19:45 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 14:19:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:19:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 14:19:45 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:19:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+
+2017-07-20 14:19:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:19:45 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:19:45 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:20:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+
+2017-07-20 14:20:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:20:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/60
+2017-07-20 14:20:05 INFO | Get all project called - find in repo
+2017-07-20 14:20:05 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:20:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+
+2017-07-20 14:20:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:20:05 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:20:05 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:20:12 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:20:12 DEBUG| Updating project for Employee ID=[60] to [1]
+2017-07-20 14:20:12 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:20:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 14:20:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:20:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:20:13 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:20:13 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:20:13 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 14:20:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:20:13 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+
+
+2017-07-20 14:21:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 14:21:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 14:21:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 14:21:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 14:21:22 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:21:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:21:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:21:22 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 14:21:22 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:21:22 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+
+
+2017-07-20 14:21:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 14:21:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/161
+2017-07-20 14:21:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:21:29 INFO | Get all project called - find in repo
+2017-07-20 14:21:29 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:21:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:21:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:21:29 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:21:29 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:21:40 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:21:40 DEBUG| Updating project for Employee ID=[161] to [2]
+2017-07-20 14:21:40 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:21:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 14:21:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+
+2017-07-20 14:21:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:21:40 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 14:21:41 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:21:41 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:21:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:21:41 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:21:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:21:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:21:48 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:21:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:21:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:21:48 INFO | Get all project called - find in repo
+2017-07-20 14:21:48 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 14:21:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:21:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-07-20 14:21:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:21:49 INFO | Get all project called - find in repo
+2017-07-20 14:21:49 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:21:49 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:21:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:21:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:21:50 INFO | Get all project called - find in repo
+
+2017-07-20 14:21:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:21:50 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:21:50 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:22:04 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:22:04 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:22:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:22:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+
+2017-07-20 14:22:16 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 14:22:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 14:22:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 14:22:16 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:22:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:22:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:22:16 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:22:16 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:22:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:22:16 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:22:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:22:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/Employee/15
+
+2017-07-20 14:23:46 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/Employee
+
+2017-07-20 14:23:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 14:23:58 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 14:23:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 14:23:58 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:23:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:23:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:23:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:23:59 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:23:59 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:23:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:23:59 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:23:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:23:59 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:24:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:24:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:24:05 INFO | Get all project called - find in repo
+
+2017-07-20 14:24:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/15
+2017-07-20 14:24:05 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:24:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+
+2017-07-20 14:24:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:24:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 14:24:36 INFO | Get all project called - find in repo
+2017-07-20 14:24:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:24:36 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:24:36 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:25:25 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:25:25 DEBUG| Updating project for Employee ID=[156] to [3]
+2017-07-20 14:25:25 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:25:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:25:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:25:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 14:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 14:25:54 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 14:25:54 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 14:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:25:54 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:25:54 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:25:54 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:25:54 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:25:54 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:26:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+2017-07-20 14:26:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 14:26:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:26:41 INFO | Get all project called - find in repo
+
+2017-07-20 14:26:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:26:41 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:26:41 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 14:27:31 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:27:31 DEBUG| Updating project for Employee ID=[161] to [1]
+2017-07-20 14:27:31 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:28:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:28:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:28:30 INFO | Get all project called - find in repo
+
+2017-07-20 14:28:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:28:30 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:28:30 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 14:28:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 14:28:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-07-20 14:28:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 14:28:41 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:28:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:28:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:28:41 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 14:28:41 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:28:41 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:28:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:28:41 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:28:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:28:41 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:28:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:28:41 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:28:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:28:41 INFO | 76 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:28:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:28:46 INFO | Get all project called - find in repo
+
+
+2017-07-20 14:28:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 14:28:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:28:46 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:28:46 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:28:56 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:28:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+
+2017-07-20 14:29:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:29:02 INFO | Get all project called - find in repo
+2017-07-20 14:29:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:29:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 14:29:02 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:29:02 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:29:21 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:29:22 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:29:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:29:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:29:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:29:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:29:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:29:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 14:29:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+2017-07-20 14:32:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:32:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 14:32:57 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 14:32:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:32:57 INFO | Get all project called - find in repo
+2017-07-20 14:32:57 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:33:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:33:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:33:03 INFO | Get all project called - find in repo
+
+2017-07-20 14:33:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:33:03 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:33:03 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:34:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 14:34:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:34:47 INFO | Get all project called - find in repo
+
+2017-07-20 14:34:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:34:47 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:34:47 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 14:38:21 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 14:38:21 DEBUG| Updating project for Employee ID=[161] to [2]
+2017-07-20 14:38:21 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 14:38:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+2017-07-20 14:40:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 14:40:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 14:40:36 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 14:40:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:40:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 14:40:36 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 14:40:36 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:40:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:40:36 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:40:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+
+2017-07-20 14:40:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:40:47 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:40:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/161
+2017-07-20 14:40:47 INFO | Get all project called - find in repo
+
+2017-07-20 14:40:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 14:40:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 14:40:47 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 14:40:47 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:41:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 14:41:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+
+2017-07-20 14:41:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 14:41:20 INFO | Get all project called - find in repo
+2017-07-20 14:41:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 14:41:20 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 14:41:20 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 14:48:44 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+
+2017-07-20 14:48:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 14:48:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:00:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 15:00:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-07-20 15:00:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 15:00:56 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+2017-07-20 15:00:56 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 15:00:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 15:00:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 15:00:56 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:00:56 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:01:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/3
+
+2017-07-20 15:01:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/3
+2017-07-20 15:01:01 INFO | 71 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:01:01 INFO | 112 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:01:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:01:04 INFO | Get all project called - find in repo
+
+2017-07-20 15:01:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 15:01:05 INFO | Get all project called - find in repo
+2017-07-20 15:01:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:01:20 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:01:20 INFO | Project created with Name: AAT
+
+2017-07-20 15:05:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:05:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:05:30 INFO | Get all project called - find in repo
+
+2017-07-20 15:05:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:05:59 INFO | Get all project called - find in repo
+
+2017-07-20 15:05:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+2017-07-20 15:06:10 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:06:10 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 15:06:10 INFO | Get all project called - find in repo
+
+2017-07-20 15:06:24 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:06:24 INFO | Project created with Name: AA
+
+2017-07-20 15:06:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:06:24 INFO | Get all project called - find in repo
+
+2017-07-20 15:06:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:06:27 INFO | Get all project called - find in repo
+
+2017-07-20 15:06:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:06:33 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:06:33 INFO | Project Name: AA2, ID: 38 has been updated
+
+2017-07-20 15:06:33 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:06:33 INFO | Get all project called - find in repo
+
+2017-07-20 15:06:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:06:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:06:38 INFO | Get all project called - find in repo
+
+2017-07-20 15:08:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:08:44 INFO | Get all project called - find in repo
+
+2017-07-20 15:08:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:08:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:08:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:08:46 INFO | Get all project called - find in repo
+
+2017-07-20 15:08:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+2017-07-20 15:09:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:09:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:09:03 INFO | Get all project called - find in repo
+
+2017-07-20 15:09:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:09:03 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:09:03 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:09:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:09:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:09:06 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:09:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:09:06 INFO | Get all project called - find in repo
+2017-07-20 15:09:06 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:12:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:12:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:12:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:12:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+2017-07-20 15:13:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:13:01 INFO | Get all project called - find in repo
+
+2017-07-20 15:13:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:13:01 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 15:13:01 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+
+
+2017-07-20 15:13:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:13:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:13:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:13:03 INFO | Get all project called - find in repo
+2017-07-20 15:13:03 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 15:13:03 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:13:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:13:18 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:13:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:13:18 INFO | Get all project called - find in repo
+
+2017-07-20 15:13:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:13:19 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:14:06 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-07-20 15:14:06 DEBUG| Updating project for Employee ID=[162] to [37]
+2017-07-20 15:14:06 INFO | Update-Employee-Seat-Project completed
+
+2017-07-20 15:14:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:14:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:14:39 INFO | Get all project called - find in repo
+
+2017-07-20 15:14:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:14:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:14:48 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:14:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 15:14:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:14:48 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+
+
+2017-07-20 15:15:37 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 15:15:37 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 15:15:37 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 15:15:38 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 15:15:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:15:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 15:15:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 15:15:42 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 15:15:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:15:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 15:15:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-07-20 15:15:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 15:15:49 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+2017-07-20 15:15:49 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 15:15:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 15:15:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 15:15:50 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:15:50 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:15:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+
+2017-07-20 15:15:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/159
+2017-07-20 15:15:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:15:51 INFO | Get all project called - find in repo
+2017-07-20 15:15:51 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:15:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 15:15:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 15:15:52 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:15:52 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:17:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:17:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+
+2017-07-20 15:17:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-07-20 15:17:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 15:17:24 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 15:17:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 15:17:24 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 15:17:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 15:17:24 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:17:24 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:17:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:17:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:17:29 INFO | Get all project called - find in repo
+
+2017-07-20 15:17:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/162
+2017-07-20 15:17:29 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:17:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+
+2017-07-20 15:17:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 15:17:29 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:17:29 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:17:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:18:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:18:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:19:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:19:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:19:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+
+2017-07-20 15:19:09 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 15:19:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 15:19:10 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 15:19:10 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 15:19:10 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 15:19:10 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:19:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 15:19:11 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:19:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:19:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:19:13 INFO | Get all project called - find in repo
+
+2017-07-20 15:19:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/159
+2017-07-20 15:19:13 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:19:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 15:19:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 15:19:13 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:19:13 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:19:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:19:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+
+2017-07-20 15:19:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 15:19:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-07-20 15:19:59 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-07-20 15:20:00 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-07-20 15:20:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 15:20:00 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:20:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 15:20:02 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:20:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:20:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/82
+
+2017-07-20 15:20:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:20:04 INFO | Get all project called - find in repo
+2017-07-20 15:20:04 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:20:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+
+2017-07-20 15:20:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-07-20 15:20:04 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:20:04 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:20:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:20:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:20:15 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:20:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 15:20:16 INFO | Get all project called - find in repo
+2017-07-20 15:20:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:20:16 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:20:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:20:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:20:30 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 15:20:30 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:20:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:20:30 INFO | Get all project called - find in repo
+
+
+2017-07-20 15:20:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:20:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:20:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:20:30 INFO | Get all project called - find in repo
+2017-07-20 15:20:30 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 15:20:31 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:22:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:22:03 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:24:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:24:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:24:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:24:50 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:25:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:25:11 INFO | Get all project called - find in repo
+
+2017-07-20 15:25:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:25:11 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:26:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:26:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:26:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:26:21 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:29:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 15:29:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:29:35 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:29:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-07-20 15:29:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-07-20 15:29:38 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+2017-07-20 15:29:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-07-20 15:29:38 INFO | 24 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-07-20 15:29:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 15:29:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 15:29:38 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:29:38 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:29:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+
+2017-07-20 15:29:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/154
+2017-07-20 15:29:41 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:29:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:29:41 INFO | Get all project called - find in repo
+
+2017-07-20 15:29:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-07-20 15:29:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-07-20 15:29:41 INFO | 77 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-07-20 15:29:41 INFO | 94 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:29:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:29:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:29:48 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:29:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:29:50 INFO | Get all project called - find in repo
+
+2017-07-20 15:29:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:29:50 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:32:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:32:28 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:32:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 15:32:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:32:29 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:32:33 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:32:33 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:32:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:32:35 INFO | Get all project called - find in repo
+
+2017-07-20 15:32:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:32:35 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:36:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:36:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:36:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:36:45 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:37:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:37:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:37:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:37:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:37:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:37:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:37:36 INFO | Get all project called - find in repo
+2017-07-20 15:37:36 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:37:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:37:42 INFO | Get all project called - find in repo
+
+2017-07-20 15:37:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:37:42 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:38:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:38:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:38:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:38:48 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:38:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:38:49 INFO | Get all project called - find in repo
+
+2017-07-20 15:38:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:38:50 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:40:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:40:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:40:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:40:38 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:40:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:40:42 INFO | Get all project called - find in repo
+
+2017-07-20 15:40:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:40:42 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:40:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:40:57 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:41:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-07-20 15:41:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:41:00 INFO | Get all project called - find in repo
+2017-07-20 15:41:00 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:41:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:41:05 INFO | Get all project called - find in repo
+
+2017-07-20 15:41:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:41:05 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:41:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:41:07 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:43:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:43:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:44:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:44:37 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:44:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:44:39 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:44:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:44:45 INFO | Get all project called - find in repo
+
+2017-07-20 15:44:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:44:45 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:46:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:46:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:46:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:46:15 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-07-20 15:46:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-07-20 15:46:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:46:16 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:46:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:46:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-07-20 15:46:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:46:19 INFO | Get all project called - find in repo
+2017-07-20 15:46:19 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 15:46:19 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:53:25 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 15:53:25 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:53:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:53:30 INFO | Get all project called - find in repo
+
+2017-07-20 15:53:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-07-20 15:53:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-07-20 15:53:31 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 15:53:31 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:53:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:53:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:53:34 INFO | Get all project called - find in repo
+
+2017-07-20 15:53:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-07-20 15:53:34 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 15:53:34 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:53:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-07-20 15:53:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-07-20 15:53:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:53:39 INFO | Get all project called - find in repo
+2017-07-20 15:53:39 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-07-20 15:53:39 INFO | 198 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-07-20 15:53:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:53:43 INFO | Get all project called - find in repo
+
+2017-07-20 15:53:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-20 15:53:44 INFO | Get all project called - find in repo
+
+2017-07-20 15:53:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 15:53:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 16:29:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 16:29:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-20 16:34:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 16:34:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-20 16:34:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee

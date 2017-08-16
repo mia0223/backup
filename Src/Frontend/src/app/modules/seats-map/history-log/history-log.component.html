@@ -1,0 +1,54 @@
+<div>
+    <div class="history-log-panel-wrapper">
+        <i class="material-icons history-panel-close-icon"
+            (click)="closeHistoryPanel()">close</i>
+    </div>
+</div>
+<div>
+    <div class="email-button-wrapper">
+        <button md-raised-button
+            color="primary"
+            class="email-button"
+            (click)="openEmailDialog()">
+            Send Email
+        </button>
+    </div>
+    <div>
+        <md-checkbox disableRipple
+            color="primary"
+            class="select-all-checkbox"
+            [(ngModel)]="isSelectAll"
+            (change)="toggleAll()">
+            Select All
+        </md-checkbox>
+    </div>
+    <div *ngFor="let moveActionGroup of seatChangelogData">
+        <div class="history-log-panel-date-wrapper">
+            <span class="history-log-panel-date">
+                {{moveActionGroup.actionDate | date: 'EEEE, MMMM d' | uppercase}}
+            </span>
+        </div>
+        <div class="log-item-wrapper" *ngFor="let moveAction of moveActionGroup.seatChangeLog">
+            <div class="checkbox">
+                <md-checkbox disableRipple
+                    color="primary"
+                    [(ngModel)]="moveAction.selected"
+                    (change)="onSeatLogSelect(moveAction)">
+                </md-checkbox>
+            </div>
+            <div class="log-item">
+                <div class="font-bold">
+                    {{moveAction.employee.lastName}}, {{moveAction.employee.firstName}}
+                </div>
+                <div>Move from
+                    <span class="font-bold">{{moveAction.sourceSeat.transit ? 'Transit' : '#' + moveAction.sourceSeat.number}}</span>
+                    to
+                    <span class="font-bold">{{moveAction.targetSeat.transit ? 'Transit' : '#' + moveAction.targetSeat.number}}</span>
+                </div>
+                <div *ngIf="moveAction.mailSent" class="email-sent">
+                    Email Sent
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

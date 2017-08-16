@@ -1,0 +1,49 @@
+<div fxLayout="column"
+     fxLayoutAlign="space-between stretch">
+  <button md-fab class="admin-button" color="primary" (click)="onClickAdd()"><i class="material-icons">add</i></button>
+
+  <div class="table-container" fxFlex="1 1 calc(100vh - 120px)" fxLayout = "row" fxLayoutAlign="center">
+
+    <table class = "admin-table">
+      <thead>
+      <tr>
+        <td>
+          NAME
+        </td>
+        <td>
+          PROJECT
+        </td>
+        <td>
+          SEAT NUMBER
+        </td>
+        <td>
+          STATUS
+        </td>
+        <td class ="delete">
+        </td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class = 'table-data' *ngFor="let employee of employees" (click)="onClickUpdate($event, employee)">
+        <td>
+          {{employee.lastName}}, {{employee.firstName}}
+        </td>
+        <td >
+          <i class="material-icons project-item__bullet" [ngStyle]="{color: employee?.project?.backgroundColor}">lens</i>
+
+          <span class="project-item__text"> &nbsp;&nbsp;&nbsp; {{employee?.project?.description}} ( {{employee?.project?.name}} )</span>
+        </td>
+        <td>
+          {{employee?.seat?.transit ? "In Transit" : employee?.seat?.number}}
+        </td>
+        <td >
+          {{employee?.status?.name}}
+        </td>
+        <td class="delete">
+        <i class="material-icons delete-icon" id = "delete" (click)="deleteEmployee(employee)" >clear</i>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

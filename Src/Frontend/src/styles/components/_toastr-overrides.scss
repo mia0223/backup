@@ -1,0 +1,15 @@
+.toast-close-button {
+  position: inherit !important;
+  vertical-align: middle;
+  top: inherit;
+  right: inherit;
+  opacity: 1;
+  .material-icons{
+    color: white;
+    background-color: transparent;
+    border: none;
+  }
+}
+#toast-container > div{
+  border-radius: 0;
+}

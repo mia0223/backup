@@ -1,0 +1,138 @@
+
+2017-07-21 15:55:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-21 15:55:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:55:26 INFO | Get all project called - find in repo
+
+2017-07-21 15:55:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:55:35 INFO | Get all project called - find in repo
+
+2017-07-21 15:55:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-21 15:55:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:55:59 INFO | Get all project called - find in repo
+
+2017-07-21 15:55:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-21 15:56:10 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:56:11 FATAL| 15D0A5A2 | System.ArgumentNullException: System.ArgumentNullException: Value cannot be null.
+Parameter name: project
+   at TEK.SeatPlan.Common.Requires.ArgumentNotNull(Object value, String parameterName) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Common\Requires.cs:line 19
+   at TEK.SeatPlan.BusinessLogic.DataComponents.ProjectComponent.UpdateProject(Project project) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\ProjectComponent.cs:line 64
+   at TEK.SeatPlan.WebApi.Controllers.ProjectController.Put(Project project) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\ProjectController.cs:line 36
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+2017-07-21 15:58:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-21 15:58:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:58:21 INFO | Get all project called - find in repo
+
+2017-07-21 15:58:23 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:58:23 INFO | Get all project called - find in repo
+
+2017-07-21 15:58:23 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-21 15:58:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:58:26 INFO | Get all project called - find in repo
+
+2017-07-21 15:58:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-21 15:59:07 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:59:08 FATAL| 177E69FD | System.ArgumentNullException: System.ArgumentNullException: Value cannot be null.
+Parameter name: project
+   at TEK.SeatPlan.Common.Requires.ArgumentNotNull(Object value, String parameterName) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Common\Requires.cs:line 19
+   at TEK.SeatPlan.BusinessLogic.DataComponents.ProjectComponent.UpdateProject(Project project) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\ProjectComponent.cs:line 64
+   at TEK.SeatPlan.WebApi.Controllers.ProjectController.Put(Project project) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\ProjectController.cs:line 36
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+2017-07-21 15:59:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-21 15:59:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:59:17 INFO | Get all project called - find in repo
+
+2017-07-21 15:59:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 15:59:18 INFO | Get all project called - find in repo
+
+2017-07-21 15:59:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-21 16:06:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-21 16:06:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 16:06:28 INFO | Get all project called - find in repo
+
+2017-07-21 16:06:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 16:06:29 INFO | Get all project called - find in repo
+
+2017-07-21 16:06:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-07-21 16:07:42 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 16:07:43 FATAL| 35128914 | System.ArgumentNullException: System.ArgumentNullException: Value cannot be null.
+Parameter name: project
+   at TEK.SeatPlan.Common.Requires.ArgumentNotNull(Object value, String parameterName) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Common\Requires.cs:line 19
+   at TEK.SeatPlan.BusinessLogic.DataComponents.ProjectComponent.UpdateProject(Project project) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\ProjectComponent.cs:line 64
+   at TEK.SeatPlan.WebApi.Controllers.ProjectController.Put(Project project) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\ProjectController.cs:line 36
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+2017-07-21 16:07:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-07-21 16:07:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 16:07:49 INFO | Get all project called - find in repo
+
+2017-07-21 16:07:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-07-21 16:07:50 INFO | Get all project called - find in repo
+
+2017-07-21 16:07:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee

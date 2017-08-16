@@ -1,0 +1,12 @@
+<div *ngFor="let external of externalProjects" class="legend-item" title={{external.description}}>
+    <i class="material-icons legend-item__bullet" [ngStyle]="{color: external.backgroundColor}">lens</i>
+    <span class="legend-item__text">{{ external.name }}</span>
+</div>
+<div *ngFor="let internal of internalProjects; let first = first;" class="legend-item" [ngClass]="{'legend-item__delimiter': first}" title={{internal.description}}>
+    <i class="material-icons legend-item__bullet" [ngStyle]="{color: internal.backgroundColor}">lens</i>
+    <span class="legend-item__text">{{ internal.name }}</span>
+</div>
+<div class="legend-item">
+    <i class="material-icons legend-item__bullet empty">block</i>
+    <span class="legend-item__text">Empty</span>
+</div>

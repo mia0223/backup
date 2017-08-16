@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ae4da2d6-c799-470e-ef76-87d856416656" name="mammar@MSC-PC0B4RXR 2017-07-19T14:06:46" runUser="mammar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Karma Test Run" id="c3fdc8a7-d02e-3b7c-8ffc-3ae7d2418381"/>
+  <Times creation="2017-07-19T14:06:46" queuing="2017-07-19T14:06:46" start="2017-07-19T14:06:46" finish="2017-07-19T14:07:26"/>
+  <ResultSummary outcome="Passed">
+    <Counters total="78" executed="78" passed="78" error="0" failed="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should create the app" id="773e89f4-acff-28bb-f087-1756f18b1a4c">
+      <Execution id="ca9fda4a-6fde-f674-00bd-b1e4abe73cf6"/>
+      <TestMethod codeBase="AppComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should create the app" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should create the app" className="AppComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="eb06566c-60f4-61b5-9b2f-3c00688df52d">
+      <Execution id="5a42c09f-7c82-1270-e2ad-90216e655aee"/>
+      <TestMethod codeBase="ApiHttp service.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="ApiHttp service"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method get no options" id="3d98e4af-4fd1-d36c-86a7-401384a23657">
+      <Execution id="8aaf5a05-042a-4a56-7158-86e1cb53e73c"/>
+      <TestMethod codeBase="ApiHttp service.Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method get no options" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method get no options" className="ApiHttp service"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method get with options" id="4a4e7023-c3c8-634a-c1e7-fcb320a15977">
+      <Execution id="b9615bd7-80a6-aacf-dcb4-31bbbfbe5e3d"/>
+      <TestMethod codeBase="ApiHttp service.Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method get with options" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method get with options" className="ApiHttp service"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method post no options" id="1ffbc005-938d-9348-da6a-ae23e18b2fce">
+      <Execution id="50a11838-d057-a59a-2b57-1e481be86528"/>
+      <TestMethod codeBase="ApiHttp service.Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method post no options" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method post no options" className="ApiHttp service"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method post with options" id="df1b3c11-ec06-62b8-d31e-56a12948eb91">
+      <Execution id="9f11049a-d217-4335-b40f-1f5e2f33383e"/>
+      <TestMethod codeBase="ApiHttp service.Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method post with options" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method post with options" className="ApiHttp service"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method put no options" id="b6f34241-3d81-9bd7-844a-e933115cb419">
+      <Execution id="7708faad-3ebb-f51d-484f-e12b4926e392"/>
+      <TestMethod codeBase="ApiHttp service.Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method put no options" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method put no options" className="ApiHttp service"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method put with options" id="2d078031-7579-1a62-03b8-7245838a3dd4">
+      <Execution id="acd4e0f4-ca65-d50c-0456-e1ef76601c27"/>
+      <TestMethod codeBase="ApiHttp service.Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method put with options" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method put with options" className="ApiHttp service"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="5b5435a8-72ab-a0c9-1a92-5f6330514531">
+      <Execution id="489d9656-0370-0769-72c5-8a79ad4444af"/>
+      <TestMethod codeBase="SeatComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="SeatComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should assign top and left seat coordinates if not in-transit seat" id="272c9dd3-a4d1-57eb-3f5f-be6658bec5d1">
+      <Execution id="4f6c1cb0-f7ef-aef1-dae7-5024d3ea3bd8"/>
+      <TestMethod codeBase="SeatComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should assign top and left seat coordinates if not in-transit seat" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should assign top and left seat coordinates if not in-transit seat" className="SeatComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get correct color for project" id="e161e5db-4b55-e615-19c7-4e761a9a929f">
+      <Execution id="1b325791-01c9-b556-f00d-e040957a7af8"/>
+      <TestMethod codeBase="SeatComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should get correct color for project" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get correct color for project" className="SeatComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return empty seat if no employee" id="c749df76-7d46-eb05-dcbb-75e125d220bb">
+      <Execution id="a7a79045-556c-cbbb-6b74-6cb2443caa3a"/>
+      <TestMethod codeBase="SeatComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should return empty seat if no employee" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return empty seat if no employee" className="SeatComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set top and left seat coordinates to auto if in-transit seat" id="a6b7b76a-5932-0350-917f-c215cc2a9af8">
+      <Execution id="920ff820-fcda-c922-b651-018e3fe6318a"/>
+      <TestMethod codeBase="SeatComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should set top and left seat coordinates to auto if in-transit seat" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set top and left seat coordinates to auto if in-transit seat" className="SeatComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should open dialog when dialogOpen is called" id="4fd2c951-3d80-e38f-af3e-2856b28babd3">
+      <Execution id="6c617623-55a6-409d-2601-6e9638e39231"/>
+      <TestMethod codeBase="SeatComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should open dialog when dialogOpen is called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should open dialog when dialogOpen is called" className="SeatComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="f306e5c4-a56d-6136-e41f-80131f7179ff">
+      <Execution id="6b0a2f64-0b6b-b255-5a35-f00831e3a710"/>
+      <TestMethod codeBase="ConfigManagerService.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="ConfigManagerService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should have loaded the configuration" id="0bb7677f-dce5-4aee-88ab-f16ecd5bd71e">
+      <Execution id="a7411b68-e411-6796-d8b2-1ea5a50249de"/>
+      <TestMethod codeBase="ConfigManagerService.Chrome 59.0.3071 (Windows 10 0.0.0)_should have loaded the configuration" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should have loaded the configuration" className="ConfigManagerService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should retrieve value by keys" id="5f8014fc-928a-1a8b-3e19-b07e991a572c">
+      <Execution id="cfefbb4d-f237-6054-d8de-12fd86c390ed"/>
+      <TestMethod codeBase="ConfigManagerService.Chrome 59.0.3071 (Windows 10 0.0.0)_should retrieve value by keys" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should retrieve value by keys" className="ConfigManagerService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return an empty string if the key does not exist" id="41af4efe-4157-f112-431d-f9eee324db5a">
+      <Execution id="23dcae9a-3493-b86b-4954-82808d5bdf48"/>
+      <TestMethod codeBase="ConfigManagerService.Chrome 59.0.3071 (Windows 10 0.0.0)_should return an empty string if the key does not exist" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return an empty string if the key does not exist" className="ConfigManagerService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="c29140e3-bc4a-de0d-e193-055fdb123c81">
+      <Execution id="ac00c40b-0d45-7ce2-d71d-0bcba4c1615a"/>
+      <TestMethod codeBase="DialogService.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="DialogService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should open dialog when openEmployeeDialog called" id="c59162d5-a5dd-0ef4-0aeb-1035af256c91">
+      <Execution id="f4f8b73d-8b23-8b55-7791-5c664e11f405"/>
+      <TestMethod codeBase="DialogService.Chrome 59.0.3071 (Windows 10 0.0.0)_should open dialog when openEmployeeDialog called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should open dialog when openEmployeeDialog called" className="DialogService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="6994dfe3-ff7f-769c-1f8b-cda6c316e571">
+      <Execution id="533e7ac4-0c64-0ff9-ccbd-e5c84e09d82d"/>
+      <TestMethod codeBase="http-error.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="http-error"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should have HttpError prototype" id="93efb7b1-ac6d-91df-88a1-d9f1caedc206">
+      <Execution id="9240e53b-ea48-afb8-8e86-b5c1fa54703a"/>
+      <TestMethod codeBase="http-error.Chrome 59.0.3071 (Windows 10 0.0.0)_should have HttpError prototype" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should have HttpError prototype" className="http-error"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set default message for HttpError when no message id" id="9dece1d0-bdde-b679-7436-ef568f81a1ae">
+      <Execution id="3329a7b6-c747-a04d-03ae-4f225e0f62f6"/>
+      <TestMethod codeBase="http-error.Chrome 59.0.3071 (Windows 10 0.0.0)_should set default message for HttpError when no message id" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set default message for HttpError when no message id" className="http-error"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set message with Id for HttpError when there is a message id" id="6756eaa1-bf32-c6d4-18e3-e2b457bbf1fb">
+      <Execution id="d8f501ec-71a3-c5da-4c87-3aaf8e607df7"/>
+      <TestMethod codeBase="http-error.Chrome 59.0.3071 (Windows 10 0.0.0)_should set message with Id for HttpError when there is a message id" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set message with Id for HttpError when there is a message id" className="http-error"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should create subject for projects" id="858a48f5-c10f-e4f9-fdd0-0afbf7c122e9">
+      <Execution id="8946dc8a-ec48-fce0-fba3-5ddd87b6c545"/>
+      <TestMethod codeBase="ProjectsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should create subject for projects" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should create subject for projects" className="ProjectsService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http to get the list of projects by location" id="0e5ed4ca-2586-2fe4-46c1-d22c904dad98">
+      <Execution id="7997976f-9843-ae95-d3ba-27fc004adff7"/>
+      <TestMethod codeBase="ProjectsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should call http to get the list of projects by location" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http to get the list of projects by location" className="ProjectsService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should map the result from http" id="f258078f-780d-ec22-6e5a-32ea964bdc17">
+      <Execution id="923cd2d0-482f-7e24-cd9f-9b708092c28f"/>
+      <TestMethod codeBase="ProjectsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should map the result from http" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should map the result from http" className="ProjectsService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="a5d1cf8c-3715-fecf-ca3b-bcfd97eb00fd">
+      <Execution id="d2d9b9db-b08c-13bb-c6d8-0458a1be967f"/>
+      <TestMethod codeBase="UrlHelper.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="UrlHelper"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url without parameters" id="c91d0986-dcab-5758-6bf0-98c9196842e3">
+      <Execution id="fe25da0e-35ae-47db-3910-434c6f94ee2a"/>
+      <TestMethod codeBase="UrlHelper.Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url without parameters" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url without parameters" className="UrlHelper"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url with only one parameter" id="92627732-aab5-528f-c920-294cf847cbee">
+      <Execution id="5d1fd973-2c6e-d30a-08c9-ab3b4cf5461f"/>
+      <TestMethod codeBase="UrlHelper.Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url with only one parameter" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url with only one parameter" className="UrlHelper"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url with more than one parameter" id="d092e848-ae52-1e2b-6333-cfe591adfce3">
+      <Execution id="6216e71a-4c3a-b659-f7d4-27358ed1c162"/>
+      <TestMethod codeBase="UrlHelper.Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url with more than one parameter" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url with more than one parameter" className="UrlHelper"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for DOMAIN" id="55f5ee9b-6f23-deb0-13fa-f33d01cf0355">
+      <Execution id="811adec1-68ab-8cf7-16d5-8d20ed8ed899"/>
+      <TestMethod codeBase="UrlHelper.Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for DOMAIN" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for DOMAIN" className="UrlHelper"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL" id="25a26661-08eb-2d51-665d-3f9be4822049">
+      <Execution id="1d50cfbe-7668-1bb0-480e-dc39140fe4fe"/>
+      <TestMethod codeBase="UrlHelper.Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL" className="UrlHelper"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL and DOMAIN" id="f41364c2-91a6-7cab-85fa-08688b88bffe">
+      <Execution id="3bf77f2a-b190-51b5-2605-a50d355f37cc"/>
+      <TestMethod codeBase="UrlHelper.Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL and DOMAIN" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL and DOMAIN" className="UrlHelper"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL and DOMAIN and more than one parameter" id="2ac72ac7-93c7-5ed2-6c61-654d5eec56ae">
+      <Execution id="36dda453-fefa-ceaf-34f8-f12635da45ca"/>
+      <TestMethod codeBase="UrlHelper.Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL and DOMAIN and more than one parameter" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL and DOMAIN and more than one parameter" className="UrlHelper"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="1102bc69-7b83-2272-01f9-c0fcada07ea3">
+      <Execution id="d8a49578-5a07-546d-58bd-6c8ab2ea68d7"/>
+      <TestMethod codeBase="AdminEmployeesComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="AdminEmployeesComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="0df65cc0-7e69-5eed-3d26-5c82985d36f0">
+      <Execution id="865bab14-bc6e-87c5-32f5-32fe2d0dd6cd"/>
+      <TestMethod codeBase="AdminProjectsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="AdminProjectsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" id="9c788417-b97e-8025-580b-41ac344521c8">
+      <Execution id="ebd3f085-60aa-d48c-868e-27e2673b494f"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set projectChange to true when projectChange called" id="001858a0-c06b-b8c9-17d6-9a4e559bd81b">
+      <Execution id="4416eea0-72ab-d3d4-2618-a6e5ea424ef1"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should set projectChange to true when projectChange called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set projectChange to true when projectChange called" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set seatChange to true when seatChange called" id="a1effab9-f15e-2d65-dfda-1b5d865518a6">
+      <Execution id="aa7eb016-767b-3db3-5ea3-f13ca53e817e"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should set seatChange to true when seatChange called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set seatChange to true when seatChange called" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set validSeat to true when seatChange called and seat exists" id="8c31f157-c495-78a7-ffe7-13f09532e6ff">
+      <Execution id="732a32bc-6033-17e8-e30e-c8e4efe53cc1"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should set validSeat to true when seatChange called and seat exists" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set validSeat to true when seatChange called and seat exists" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set validSeat to false when seatChange called and seat does not exist" id="edaba816-11d4-e203-e72e-2ac36eb90965">
+      <Execution id="9d394a3f-2219-5908-782d-0c49f119c64d"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should set validSeat to false when seatChange called and seat does not exist" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set validSeat to false when seatChange called and seat does not exist" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call trySaveChanges method of employeeDialogService with correct parameters when SaveChanges Called" id="d79e95b5-b3e4-60be-2e3f-a1199f780454">
+      <Execution id="1da933ed-8915-22d9-4b56-17b79d625ec1"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should call trySaveChanges method of employeeDialogService with correct parameters when SaveChanges Called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call trySaveChanges method of employeeDialogService with correct parameters when SaveChanges Called" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should change dialog state to confirmation when SaveChanges Called and there is employee in target seat" id="50b69a80-d8cd-5114-3c97-e5f2b2d4a2d4">
+      <Execution id="ccbae986-7983-cc8e-8d06-7514906102f0"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should change dialog state to confirmation when SaveChanges Called and there is employee in target seat" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should change dialog state to confirmation when SaveChanges Called and there is employee in target seat" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call updateMap and close dialog when SaveChanges Called and there is no employee in target seat" id="7260cf85-721c-b523-507c-79a26b1d0073">
+      <Execution id="b4bc50c7-bba9-7e42-ee8c-fab171a3b90b"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should call updateMap and close dialog when SaveChanges Called and there is no employee in target seat" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call updateMap and close dialog when SaveChanges Called and there is no employee in target seat" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should change dialog state to main when CancelConfirmation Called" id="41a0e0a2-6b89-2250-0b4e-faae107aee24">
+      <Execution id="1107ce60-3f0d-a4f6-79b9-2b131d55c61f"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should change dialog state to main when CancelConfirmation Called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should change dialog state to main when CancelConfirmation Called" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call forceSaveChanges method of employeeDialogService when ConfirmChanges Called" id="2f2cfadc-7a9b-befa-737d-583184e4a450">
+      <Execution id="0bcb4bc8-7562-44e3-81a3-08e703848fe2"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should call forceSaveChanges method of employeeDialogService when ConfirmChanges Called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call forceSaveChanges method of employeeDialogService when ConfirmChanges Called" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call updateMap and close dialog when ConfirmChanges Called" id="70f403d7-ca5e-35e9-ac63-91de418b4be0">
+      <Execution id="ce96bd2c-07b3-b6c7-b522-9188e02bbc49"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should call updateMap and close dialog when ConfirmChanges Called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call updateMap and close dialog when ConfirmChanges Called" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call notifySeatActionExecuted method of seatsMapService when updateMap Called" id="33e32c70-009b-5e27-d8de-db9b4c0b20ef">
+      <Execution id="7f97f984-03df-0281-cb6b-c847e7bb996e"/>
+      <TestMethod codeBase="EmployeeDialogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should call notifySeatActionExecuted method of seatsMapService when updateMap Called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call notifySeatActionExecuted method of seatsMapService when updateMap Called" className="EmployeeDialogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="ea031bdd-ac0b-9630-e09d-276985440e50">
+      <Execution id="e9d4b18d-c691-7676-7d89-fef7fd317208"/>
+      <TestMethod codeBase="SeatsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="SeatsService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with correct params when method getAllEmployees called" id="7b950dda-f7cd-9943-344a-7f78ff930519">
+      <Execution id="8fb169dd-c730-a0b5-f7b4-ea9734b0ccc5"/>
+      <TestMethod codeBase="SeatsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with correct params when method getAllEmployees called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with correct params when method getAllEmployees called" className="SeatsService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with correct params when method getSeatByEmployeeId called" id="973d4770-3d30-3978-d488-dcc88d2cedac">
+      <Execution id="0ea99084-2558-7436-7001-3c04f3acc571"/>
+      <TestMethod codeBase="SeatsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with correct params when method getSeatByEmployeeId called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with correct params when method getSeatByEmployeeId called" className="SeatsService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http put with correct params when method trySaveChanges called" id="000265d7-680a-644d-7ada-f06d7491505f">
+      <Execution id="f5a46b73-d163-817e-cb11-9db9b7d49279"/>
+      <TestMethod codeBase="SeatsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should call http put with correct params when method trySaveChanges called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http put with correct params when method trySaveChanges called" className="SeatsService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http put with correct params when method forceSaveChanges called" id="bcb64f9b-356e-5248-bb4a-a5602f1ca0f6">
+      <Execution id="88409fa3-9b7d-cea4-4431-71168a0ef696"/>
+      <TestMethod codeBase="SeatsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should call http put with correct params when method forceSaveChanges called" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http put with correct params when method forceSaveChanges called" className="SeatsService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be defined" id="0f4d35e6-f1da-2274-7a27-4141ca3428b1">
+      <Execution id="602f2764-8ae3-9823-61b5-1616c788c589"/>
+      <TestMethod codeBase="HistoryLogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should be defined" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be defined" className="HistoryLogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should load seat change log data on init" id="35336b05-c6e9-3042-5004-fdfc38e25933">
+      <Execution id="5f8d4c80-678d-01d3-9814-d20a50a59465"/>
+      <TestMethod codeBase="HistoryLogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should load seat change log data on init" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should load seat change log data on init" className="HistoryLogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should load seat change log data" id="ea8e582d-b8c5-4206-48ab-77784d9564de">
+      <Execution id="1723813b-a526-6311-b3f4-5c015252346b"/>
+      <TestMethod codeBase="HistoryLogComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should load seat change log data" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should load seat change log data" className="HistoryLogComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="d51971f2-94f1-2c29-7285-62318d6dd4b0">
+      <Execution id="71268cf7-5f88-af54-7706-d18fd002ee06"/>
+      <TestMethod codeBase="AdminDropdownComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="AdminDropdownComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" id="b3dd1884-39f6-6bdb-8288-e70eae8c9b8d">
+      <Execution id="04695267-f83b-fef3-6056-2ec9020f1c9f"/>
+      <TestMethod codeBase="LocationsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" className="LocationsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get the list of locations on init" id="6d8c76f8-25df-1a87-8756-eb4c312b089d">
+      <Execution id="ec9120ea-02c2-1cb9-cdd1-7ffafa82912d"/>
+      <TestMethod codeBase="LocationsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should get the list of locations on init" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should get the list of locations on init" className="LocationsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should select first location from the list by default" id="97019046-1afb-d280-ab8f-76b4e07c6ff3">
+      <Execution id="63844c9a-bda0-78b6-b276-5b9c392ba480"/>
+      <TestMethod codeBase="LocationsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should select first location from the list by default" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should select first location from the list by default" className="LocationsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should not select default location when the location list is empty" id="e4629bfa-89c5-5092-98cf-a84cd9060681">
+      <Execution id="3ceae72c-2709-4b81-7dd6-ce431502eea0"/>
+      <TestMethod codeBase="LocationsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should not select default location when the location list is empty" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should not select default location when the location list is empty" className="LocationsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set the locationId to the first location from the list by default" id="8ec0ca50-ebcf-d666-ef4d-026f49571db3">
+      <Execution id="77c4dac1-d220-b081-9367-b55bab7e15f8"/>
+      <TestMethod codeBase="LocationsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should set the locationId to the first location from the list by default" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set the locationId to the first location from the list by default" className="LocationsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should initialize the location list" id="97a2f7c2-7d52-da7b-7b70-24d4aad6d9e8">
+      <Execution id="ebdfc1aa-3a05-e36c-279a-79d0e8514955"/>
+      <TestMethod codeBase="LocationsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should initialize the location list" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should initialize the location list" className="LocationsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set locationId onLocationChange" id="067a1ad0-4232-883a-96ed-c370f79e0ac9">
+      <Execution id="54b3dffc-d44f-3492-e342-249a6c9244a1"/>
+      <TestMethod codeBase="LocationsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should set locationId onLocationChange" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set locationId onLocationChange" className="LocationsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" id="310797e4-9e20-b6f3-e554-4696b54f58cb">
+      <Execution id="52bb2ac5-1fed-2ce0-812b-3284123494a5"/>
+      <TestMethod codeBase="ProjectsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" className="ProjectsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="c1d5cfec-65ea-ee23-5d05-391d7940f303">
+      <Execution id="c2a209e5-4d9c-7ecc-893c-04ca13ff91c4"/>
+      <TestMethod codeBase="SearchBarService.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="SearchBarService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be defined" id="b525df36-4b33-ccbe-2f24-57d46b5fadd1">
+      <Execution id="deb0926c-f4ce-0c6f-36bf-5a49f5709717"/>
+      <TestMethod codeBase="SeatsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should be defined" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be defined" className="SeatsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set transitseatsdata and seatsdata correctly" id="4c53656f-ded4-77ba-6910-3c6ac24e16d4">
+      <Execution id="44fac320-aaed-ac31-bce7-291bc376d92a"/>
+      <TestMethod codeBase="SeatsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should set transitseatsdata and seatsdata correctly" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should set transitseatsdata and seatsdata correctly" className="SeatsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should have correct value for inTransitOccupied" id="70ac1c4c-e840-e736-6f84-b3ce9607acea">
+      <Execution id="fcf6e448-5fe4-dfec-8fd2-d914eeaaa884"/>
+      <TestMethod codeBase="SeatsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should have correct value for inTransitOccupied" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should have correct value for inTransitOccupied" className="SeatsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should initialize with in transit area collapsed" id="2fce782c-036c-c3a9-fbcd-06195122a43d">
+      <Execution id="fdff9599-a121-381f-75b2-5ec9c69ff047"/>
+      <TestMethod codeBase="SeatsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should initialize with in transit area collapsed" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should initialize with in transit area collapsed" className="SeatsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should toggle layoutSetting and transit area should show when toggleInTransitView called once" id="d86522d1-dc3f-3878-e7a0-cfd555192169">
+      <Execution id="9dc54650-8c32-61c6-51b0-818069e2dfa7"/>
+      <TestMethod codeBase="SeatsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should toggle layoutSetting and transit area should show when toggleInTransitView called once" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should toggle layoutSetting and transit area should show when toggleInTransitView called once" className="SeatsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should load seats when locationId changes" id="25eff079-f6c6-5ee3-9fb7-56e14e0373b7">
+      <Execution id="fa34e166-832f-898c-db39-e83e69dcfa3b"/>
+      <TestMethod codeBase="SeatsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should load seats when locationId changes" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should load seats when locationId changes" className="SeatsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should reload seats when seatAction executed" id="59ae4f7f-c818-0873-aa46-2180a99f0bd3">
+      <Execution id="aef275ec-1ddf-e3b4-96f9-9ee52c23f962"/>
+      <TestMethod codeBase="SeatsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should reload seats when seatAction executed" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should reload seats when seatAction executed" className="SeatsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should reload seats for current location when seatAction executed" id="bb98371d-c446-89f9-5012-8b4304c76f59">
+      <Execution id="321b382d-cb4d-ffcd-038b-14af3e57d0c2"/>
+      <TestMethod codeBase="SeatsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should reload seats for current location when seatAction executed" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should reload seats for current location when seatAction executed" className="SeatsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call method changeSeatsData of seatsService with correct params when onTransitDropSuccess executed" id="41bac15f-14b6-7efe-d1de-08a7f5743f9b">
+      <Execution id="d7aedde0-e222-9128-6c25-6062d5449a1b"/>
+      <TestMethod codeBase="SeatsComponent.Chrome 59.0.3071 (Windows 10 0.0.0)_should call method changeSeatsData of seatsService with correct params when onTransitDropSuccess executed" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call method changeSeatsData of seatsService with correct params when onTransitDropSuccess executed" className="SeatsComponent"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" id="15cdc88e-d0ec-f0f2-af9a-2316299051b6">
+      <Execution id="9fdce29b-d1d4-6af6-6be5-969d366d2baf"/>
+      <TestMethod codeBase="SeatsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" className="SeatsService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with params" id="a3247f31-1e4a-8310-a035-623daee08bd3">
+      <Execution id="a22de7a9-6953-6f41-b1a4-8e2a816f2e0f"/>
+      <TestMethod codeBase="SeatsService.Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with params" name="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with params" className="SeatsService"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="773e89f4-acff-28bb-f087-1756f18b1a4c" executionId="ca9fda4a-6fde-f674-00bd-b1e4abe73cf6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="eb06566c-60f4-61b5-9b2f-3c00688df52d" executionId="5a42c09f-7c82-1270-e2ad-90216e655aee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="3d98e4af-4fd1-d36c-86a7-401384a23657" executionId="8aaf5a05-042a-4a56-7158-86e1cb53e73c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="4a4e7023-c3c8-634a-c1e7-fcb320a15977" executionId="b9615bd7-80a6-aacf-dcb4-31bbbfbe5e3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="1ffbc005-938d-9348-da6a-ae23e18b2fce" executionId="50a11838-d057-a59a-2b57-1e481be86528" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="df1b3c11-ec06-62b8-d31e-56a12948eb91" executionId="9f11049a-d217-4335-b40f-1f5e2f33383e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="b6f34241-3d81-9bd7-844a-e933115cb419" executionId="7708faad-3ebb-f51d-484f-e12b4926e392" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="2d078031-7579-1a62-03b8-7245838a3dd4" executionId="acd4e0f4-ca65-d50c-0456-e1ef76601c27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="5b5435a8-72ab-a0c9-1a92-5f6330514531" executionId="489d9656-0370-0769-72c5-8a79ad4444af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="272c9dd3-a4d1-57eb-3f5f-be6658bec5d1" executionId="4f6c1cb0-f7ef-aef1-dae7-5024d3ea3bd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="e161e5db-4b55-e615-19c7-4e761a9a929f" executionId="1b325791-01c9-b556-f00d-e040957a7af8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c749df76-7d46-eb05-dcbb-75e125d220bb" executionId="a7a79045-556c-cbbb-6b74-6cb2443caa3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a6b7b76a-5932-0350-917f-c215cc2a9af8" executionId="920ff820-fcda-c922-b651-018e3fe6318a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="4fd2c951-3d80-e38f-af3e-2856b28babd3" executionId="6c617623-55a6-409d-2601-6e9638e39231" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="f306e5c4-a56d-6136-e41f-80131f7179ff" executionId="6b0a2f64-0b6b-b255-5a35-f00831e3a710" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="0bb7677f-dce5-4aee-88ab-f16ecd5bd71e" executionId="a7411b68-e411-6796-d8b2-1ea5a50249de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="5f8014fc-928a-1a8b-3e19-b07e991a572c" executionId="cfefbb4d-f237-6054-d8de-12fd86c390ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="41af4efe-4157-f112-431d-f9eee324db5a" executionId="23dcae9a-3493-b86b-4954-82808d5bdf48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c29140e3-bc4a-de0d-e193-055fdb123c81" executionId="ac00c40b-0d45-7ce2-d71d-0bcba4c1615a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c59162d5-a5dd-0ef4-0aeb-1035af256c91" executionId="f4f8b73d-8b23-8b55-7791-5c664e11f405" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="6994dfe3-ff7f-769c-1f8b-cda6c316e571" executionId="533e7ac4-0c64-0ff9-ccbd-e5c84e09d82d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="93efb7b1-ac6d-91df-88a1-d9f1caedc206" executionId="9240e53b-ea48-afb8-8e86-b5c1fa54703a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="9dece1d0-bdde-b679-7436-ef568f81a1ae" executionId="3329a7b6-c747-a04d-03ae-4f225e0f62f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="6756eaa1-bf32-c6d4-18e3-e2b457bbf1fb" executionId="d8f501ec-71a3-c5da-4c87-3aaf8e607df7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="858a48f5-c10f-e4f9-fdd0-0afbf7c122e9" executionId="8946dc8a-ec48-fce0-fba3-5ddd87b6c545" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="0e5ed4ca-2586-2fe4-46c1-d22c904dad98" executionId="7997976f-9843-ae95-d3ba-27fc004adff7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="f258078f-780d-ec22-6e5a-32ea964bdc17" executionId="923cd2d0-482f-7e24-cd9f-9b708092c28f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a5d1cf8c-3715-fecf-ca3b-bcfd97eb00fd" executionId="d2d9b9db-b08c-13bb-c6d8-0458a1be967f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c91d0986-dcab-5758-6bf0-98c9196842e3" executionId="fe25da0e-35ae-47db-3910-434c6f94ee2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="92627732-aab5-528f-c920-294cf847cbee" executionId="5d1fd973-2c6e-d30a-08c9-ab3b4cf5461f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="d092e848-ae52-1e2b-6333-cfe591adfce3" executionId="6216e71a-4c3a-b659-f7d4-27358ed1c162" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="55f5ee9b-6f23-deb0-13fa-f33d01cf0355" executionId="811adec1-68ab-8cf7-16d5-8d20ed8ed899" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="25a26661-08eb-2d51-665d-3f9be4822049" executionId="1d50cfbe-7668-1bb0-480e-dc39140fe4fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="f41364c2-91a6-7cab-85fa-08688b88bffe" executionId="3bf77f2a-b190-51b5-2605-a50d355f37cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="2ac72ac7-93c7-5ed2-6c61-654d5eec56ae" executionId="36dda453-fefa-ceaf-34f8-f12635da45ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="1102bc69-7b83-2272-01f9-c0fcada07ea3" executionId="d8a49578-5a07-546d-58bd-6c8ab2ea68d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="0df65cc0-7e69-5eed-3d26-5c82985d36f0" executionId="865bab14-bc6e-87c5-32f5-32fe2d0dd6cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="9c788417-b97e-8025-580b-41ac344521c8" executionId="ebd3f085-60aa-d48c-868e-27e2673b494f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="001858a0-c06b-b8c9-17d6-9a4e559bd81b" executionId="4416eea0-72ab-d3d4-2618-a6e5ea424ef1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a1effab9-f15e-2d65-dfda-1b5d865518a6" executionId="aa7eb016-767b-3db3-5ea3-f13ca53e817e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="8c31f157-c495-78a7-ffe7-13f09532e6ff" executionId="732a32bc-6033-17e8-e30e-c8e4efe53cc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="edaba816-11d4-e203-e72e-2ac36eb90965" executionId="9d394a3f-2219-5908-782d-0c49f119c64d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="d79e95b5-b3e4-60be-2e3f-a1199f780454" executionId="1da933ed-8915-22d9-4b56-17b79d625ec1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="50b69a80-d8cd-5114-3c97-e5f2b2d4a2d4" executionId="ccbae986-7983-cc8e-8d06-7514906102f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="7260cf85-721c-b523-507c-79a26b1d0073" executionId="b4bc50c7-bba9-7e42-ee8c-fab171a3b90b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="41a0e0a2-6b89-2250-0b4e-faae107aee24" executionId="1107ce60-3f0d-a4f6-79b9-2b131d55c61f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="2f2cfadc-7a9b-befa-737d-583184e4a450" executionId="0bcb4bc8-7562-44e3-81a3-08e703848fe2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="70f403d7-ca5e-35e9-ac63-91de418b4be0" executionId="ce96bd2c-07b3-b6c7-b522-9188e02bbc49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="33e32c70-009b-5e27-d8de-db9b4c0b20ef" executionId="7f97f984-03df-0281-cb6b-c847e7bb996e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="ea031bdd-ac0b-9630-e09d-276985440e50" executionId="e9d4b18d-c691-7676-7d89-fef7fd317208" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="7b950dda-f7cd-9943-344a-7f78ff930519" executionId="8fb169dd-c730-a0b5-f7b4-ea9734b0ccc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="973d4770-3d30-3978-d488-dcc88d2cedac" executionId="0ea99084-2558-7436-7001-3c04f3acc571" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="000265d7-680a-644d-7ada-f06d7491505f" executionId="f5a46b73-d163-817e-cb11-9db9b7d49279" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="bcb64f9b-356e-5248-bb4a-a5602f1ca0f6" executionId="88409fa3-9b7d-cea4-4431-71168a0ef696" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="0f4d35e6-f1da-2274-7a27-4141ca3428b1" executionId="602f2764-8ae3-9823-61b5-1616c788c589" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="35336b05-c6e9-3042-5004-fdfc38e25933" executionId="5f8d4c80-678d-01d3-9814-d20a50a59465" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="ea8e582d-b8c5-4206-48ab-77784d9564de" executionId="1723813b-a526-6311-b3f4-5c015252346b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="d51971f2-94f1-2c29-7285-62318d6dd4b0" executionId="71268cf7-5f88-af54-7706-d18fd002ee06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="b3dd1884-39f6-6bdb-8288-e70eae8c9b8d" executionId="04695267-f83b-fef3-6056-2ec9020f1c9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="6d8c76f8-25df-1a87-8756-eb4c312b089d" executionId="ec9120ea-02c2-1cb9-cdd1-7ffafa82912d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="97019046-1afb-d280-ab8f-76b4e07c6ff3" executionId="63844c9a-bda0-78b6-b276-5b9c392ba480" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="e4629bfa-89c5-5092-98cf-a84cd9060681" executionId="3ceae72c-2709-4b81-7dd6-ce431502eea0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="8ec0ca50-ebcf-d666-ef4d-026f49571db3" executionId="77c4dac1-d220-b081-9367-b55bab7e15f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="97a2f7c2-7d52-da7b-7b70-24d4aad6d9e8" executionId="ebdfc1aa-3a05-e36c-279a-79d0e8514955" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="067a1ad0-4232-883a-96ed-c370f79e0ac9" executionId="54b3dffc-d44f-3492-e342-249a6c9244a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="310797e4-9e20-b6f3-e554-4696b54f58cb" executionId="52bb2ac5-1fed-2ce0-812b-3284123494a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c1d5cfec-65ea-ee23-5d05-391d7940f303" executionId="c2a209e5-4d9c-7ecc-893c-04ca13ff91c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="b525df36-4b33-ccbe-2f24-57d46b5fadd1" executionId="deb0926c-f4ce-0c6f-36bf-5a49f5709717" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="4c53656f-ded4-77ba-6910-3c6ac24e16d4" executionId="44fac320-aaed-ac31-bce7-291bc376d92a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="70ac1c4c-e840-e736-6f84-b3ce9607acea" executionId="fcf6e448-5fe4-dfec-8fd2-d914eeaaa884" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="2fce782c-036c-c3a9-fbcd-06195122a43d" executionId="fdff9599-a121-381f-75b2-5ec9c69ff047" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="d86522d1-dc3f-3878-e7a0-cfd555192169" executionId="9dc54650-8c32-61c6-51b0-818069e2dfa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="25eff079-f6c6-5ee3-9fb7-56e14e0373b7" executionId="fa34e166-832f-898c-db39-e83e69dcfa3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="59ae4f7f-c818-0873-aa46-2180a99f0bd3" executionId="aef275ec-1ddf-e3b4-96f9-9ee52c23f962" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="bb98371d-c446-89f9-5012-8b4304c76f59" executionId="321b382d-cb4d-ffcd-038b-14af3e57d0c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="41bac15f-14b6-7efe-d1de-08a7f5743f9b" executionId="d7aedde0-e222-9128-6c25-6062d5449a1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="15cdc88e-d0ec-f0f2-af9a-2316299051b6" executionId="9fdce29b-d1d4-6af6-6be5-969d366d2baf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a3247f31-1e4a-8310-a035-623daee08bd3" executionId="a22de7a9-6953-6f41-b1a4-8e2a816f2e0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ca9fda4a-6fde-f674-00bd-b1e4abe73cf6" testId="773e89f4-acff-28bb-f087-1756f18b1a4c" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should create the app" computerName="MSC-PC0B4RXR" duration="00:00:00.102" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="5a42c09f-7c82-1270-e2ad-90216e655aee" testId="eb06566c-60f4-61b5-9b2f-3c00688df52d" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.014" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="8aaf5a05-042a-4a56-7158-86e1cb53e73c" testId="3d98e4af-4fd1-d36c-86a7-401384a23657" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method get no options" computerName="MSC-PC0B4RXR" duration="00:00:00.023" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="b9615bd7-80a6-aacf-dcb4-31bbbfbe5e3d" testId="4a4e7023-c3c8-634a-c1e7-fcb320a15977" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method get with options" computerName="MSC-PC0B4RXR" duration="00:00:00.019" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="50a11838-d057-a59a-2b57-1e481be86528" testId="1ffbc005-938d-9348-da6a-ae23e18b2fce" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method post no options" computerName="MSC-PC0B4RXR" duration="00:00:00.024" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="9f11049a-d217-4335-b40f-1f5e2f33383e" testId="df1b3c11-ec06-62b8-d31e-56a12948eb91" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method post with options" computerName="MSC-PC0B4RXR" duration="00:00:00.014" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="7708faad-3ebb-f51d-484f-e12b4926e392" testId="b6f34241-3d81-9bd7-844a-e933115cb419" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method put no options" computerName="MSC-PC0B4RXR" duration="00:00:00.016" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="acd4e0f4-ca65-d50c-0456-e1ef76601c27" testId="2d078031-7579-1a62-03b8-7245838a3dd4" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should request with method put with options" computerName="MSC-PC0B4RXR" duration="00:00:00.014" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="489d9656-0370-0769-72c5-8a79ad4444af" testId="5b5435a8-72ab-a0c9-1a92-5f6330514531" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.057" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="4f6c1cb0-f7ef-aef1-dae7-5024d3ea3bd8" testId="272c9dd3-a4d1-57eb-3f5f-be6658bec5d1" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should assign top and left seat coordinates if not in-transit seat" computerName="MSC-PC0B4RXR" duration="00:00:00.026" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="1b325791-01c9-b556-f00d-e040957a7af8" testId="e161e5db-4b55-e615-19c7-4e761a9a929f" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should get correct color for project" computerName="MSC-PC0B4RXR" duration="00:00:00.025" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="a7a79045-556c-cbbb-6b74-6cb2443caa3a" testId="c749df76-7d46-eb05-dcbb-75e125d220bb" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should return empty seat if no employee" computerName="MSC-PC0B4RXR" duration="00:00:00.037" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="920ff820-fcda-c922-b651-018e3fe6318a" testId="a6b7b76a-5932-0350-917f-c215cc2a9af8" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set top and left seat coordinates to auto if in-transit seat" computerName="MSC-PC0B4RXR" duration="00:00:00.029" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="6c617623-55a6-409d-2601-6e9638e39231" testId="4fd2c951-3d80-e38f-af3e-2856b28babd3" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should open dialog when dialogOpen is called" computerName="MSC-PC0B4RXR" duration="00:00:00.031" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="6b0a2f64-0b6b-b255-5a35-f00831e3a710" testId="f306e5c4-a56d-6136-e41f-80131f7179ff" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.007" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="a7411b68-e411-6796-d8b2-1ea5a50249de" testId="0bb7677f-dce5-4aee-88ab-f16ecd5bd71e" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should have loaded the configuration" computerName="MSC-PC0B4RXR" duration="00:00:00.017" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="cfefbb4d-f237-6054-d8de-12fd86c390ed" testId="5f8014fc-928a-1a8b-3e19-b07e991a572c" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should retrieve value by keys" computerName="MSC-PC0B4RXR" duration="00:00:00.017" startTime="2017-07-19T14:07:23" endTime="2017-07-19T14:07:23" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="23dcae9a-3493-b86b-4954-82808d5bdf48" testId="41af4efe-4157-f112-431d-f9eee324db5a" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should return an empty string if the key does not exist" computerName="MSC-PC0B4RXR" duration="00:00:00.007" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ac00c40b-0d45-7ce2-d71d-0bcba4c1615a" testId="c29140e3-bc4a-de0d-e193-055fdb123c81" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.007" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="f4f8b73d-8b23-8b55-7791-5c664e11f405" testId="c59162d5-a5dd-0ef4-0aeb-1035af256c91" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should open dialog when openEmployeeDialog called" computerName="MSC-PC0B4RXR" duration="00:00:00.006" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="533e7ac4-0c64-0ff9-ccbd-e5c84e09d82d" testId="6994dfe3-ff7f-769c-1f8b-cda6c316e571" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.001" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="9240e53b-ea48-afb8-8e86-b5c1fa54703a" testId="93efb7b1-ac6d-91df-88a1-d9f1caedc206" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should have HttpError prototype" computerName="MSC-PC0B4RXR" duration="00:00:00.000" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="3329a7b6-c747-a04d-03ae-4f225e0f62f6" testId="9dece1d0-bdde-b679-7436-ef568f81a1ae" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set default message for HttpError when no message id" computerName="MSC-PC0B4RXR" duration="00:00:00.000" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="d8f501ec-71a3-c5da-4c87-3aaf8e607df7" testId="6756eaa1-bf32-c6d4-18e3-e2b457bbf1fb" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set message with Id for HttpError when there is a message id" computerName="MSC-PC0B4RXR" duration="00:00:00.000" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="8946dc8a-ec48-fce0-fba3-5ddd87b6c545" testId="858a48f5-c10f-e4f9-fdd0-0afbf7c122e9" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should create subject for projects" computerName="MSC-PC0B4RXR" duration="00:00:00.000" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="7997976f-9843-ae95-d3ba-27fc004adff7" testId="0e5ed4ca-2586-2fe4-46c1-d22c904dad98" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http to get the list of projects by location" computerName="MSC-PC0B4RXR" duration="00:00:00.001" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="923cd2d0-482f-7e24-cd9f-9b708092c28f" testId="f258078f-780d-ec22-6e5a-32ea964bdc17" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should map the result from http" computerName="MSC-PC0B4RXR" duration="00:00:00.000" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="d2d9b9db-b08c-13bb-c6d8-0458a1be967f" testId="a5d1cf8c-3715-fecf-ca3b-bcfd97eb00fd" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.007" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="fe25da0e-35ae-47db-3910-434c6f94ee2a" testId="c91d0986-dcab-5758-6bf0-98c9196842e3" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url without parameters" computerName="MSC-PC0B4RXR" duration="00:00:00.009" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="5d1fd973-2c6e-d30a-08c9-ab3b4cf5461f" testId="92627732-aab5-528f-c920-294cf847cbee" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url with only one parameter" computerName="MSC-PC0B4RXR" duration="00:00:00.005" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="6216e71a-4c3a-b659-f7d4-27358ed1c162" testId="d092e848-ae52-1e2b-6333-cfe591adfce3" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should get simple Url with more than one parameter" computerName="MSC-PC0B4RXR" duration="00:00:00.008" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="811adec1-68ab-8cf7-16d5-8d20ed8ed899" testId="55f5ee9b-6f23-deb0-13fa-f33d01cf0355" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for DOMAIN" computerName="MSC-PC0B4RXR" duration="00:00:00.009" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="1d50cfbe-7668-1bb0-480e-dc39140fe4fe" testId="25a26661-08eb-2d51-665d-3f9be4822049" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL" computerName="MSC-PC0B4RXR" duration="00:00:00.017" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="3bf77f2a-b190-51b5-2605-a50d355f37cc" testId="f41364c2-91a6-7cab-85fa-08688b88bffe" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL and DOMAIN" computerName="MSC-PC0B4RXR" duration="00:00:00.006" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="36dda453-fefa-ceaf-34f8-f12635da45ca" testId="2ac72ac7-93c7-5ed2-6c61-654d5eec56ae" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should return Url with substitution for PROTOCOL and DOMAIN and more than one parameter" computerName="MSC-PC0B4RXR" duration="00:00:00.008" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="d8a49578-5a07-546d-58bd-6c8ab2ea68d7" testId="1102bc69-7b83-2272-01f9-c0fcada07ea3" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.045" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="865bab14-bc6e-87c5-32f5-32fe2d0dd6cd" testId="0df65cc0-7e69-5eed-3d26-5c82985d36f0" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.042" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ebd3f085-60aa-d48c-868e-27e2673b494f" testId="9c788417-b97e-8025-580b-41ac344521c8" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" computerName="MSC-PC0B4RXR" duration="00:00:00.068" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="4416eea0-72ab-d3d4-2618-a6e5ea424ef1" testId="001858a0-c06b-b8c9-17d6-9a4e559bd81b" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set projectChange to true when projectChange called" computerName="MSC-PC0B4RXR" duration="00:00:00.063" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="aa7eb016-767b-3db3-5ea3-f13ca53e817e" testId="a1effab9-f15e-2d65-dfda-1b5d865518a6" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set seatChange to true when seatChange called" computerName="MSC-PC0B4RXR" duration="00:00:00.058" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="732a32bc-6033-17e8-e30e-c8e4efe53cc1" testId="8c31f157-c495-78a7-ffe7-13f09532e6ff" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set validSeat to true when seatChange called and seat exists" computerName="MSC-PC0B4RXR" duration="00:00:00.066" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="9d394a3f-2219-5908-782d-0c49f119c64d" testId="edaba816-11d4-e203-e72e-2ac36eb90965" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set validSeat to false when seatChange called and seat does not exist" computerName="MSC-PC0B4RXR" duration="00:00:00.061" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="1da933ed-8915-22d9-4b56-17b79d625ec1" testId="d79e95b5-b3e4-60be-2e3f-a1199f780454" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call trySaveChanges method of employeeDialogService with correct parameters when SaveChanges Called" computerName="MSC-PC0B4RXR" duration="00:00:00.074" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ccbae986-7983-cc8e-8d06-7514906102f0" testId="50b69a80-d8cd-5114-3c97-e5f2b2d4a2d4" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should change dialog state to confirmation when SaveChanges Called and there is employee in target seat" computerName="MSC-PC0B4RXR" duration="00:00:00.058" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="b4bc50c7-bba9-7e42-ee8c-fab171a3b90b" testId="7260cf85-721c-b523-507c-79a26b1d0073" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call updateMap and close dialog when SaveChanges Called and there is no employee in target seat" computerName="MSC-PC0B4RXR" duration="00:00:00.058" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="1107ce60-3f0d-a4f6-79b9-2b131d55c61f" testId="41a0e0a2-6b89-2250-0b4e-faae107aee24" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should change dialog state to main when CancelConfirmation Called" computerName="MSC-PC0B4RXR" duration="00:00:00.058" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="0bcb4bc8-7562-44e3-81a3-08e703848fe2" testId="2f2cfadc-7a9b-befa-737d-583184e4a450" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call forceSaveChanges method of employeeDialogService when ConfirmChanges Called" computerName="MSC-PC0B4RXR" duration="00:00:00.069" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ce96bd2c-07b3-b6c7-b522-9188e02bbc49" testId="70f403d7-ca5e-35e9-ac63-91de418b4be0" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call updateMap and close dialog when ConfirmChanges Called" computerName="MSC-PC0B4RXR" duration="00:00:00.057" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="7f97f984-03df-0281-cb6b-c847e7bb996e" testId="33e32c70-009b-5e27-d8de-db9b4c0b20ef" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call notifySeatActionExecuted method of seatsMapService when updateMap Called" computerName="MSC-PC0B4RXR" duration="00:00:00.064" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="e9d4b18d-c691-7676-7d89-fef7fd317208" testId="ea031bdd-ac0b-9630-e09d-276985440e50" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.006" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="8fb169dd-c730-a0b5-f7b4-ea9734b0ccc5" testId="7b950dda-f7cd-9943-344a-7f78ff930519" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with correct params when method getAllEmployees called" computerName="MSC-PC0B4RXR" duration="00:00:00.006" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="0ea99084-2558-7436-7001-3c04f3acc571" testId="973d4770-3d30-3978-d488-dcc88d2cedac" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with correct params when method getSeatByEmployeeId called" computerName="MSC-PC0B4RXR" duration="00:00:00.005" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="f5a46b73-d163-817e-cb11-9db9b7d49279" testId="000265d7-680a-644d-7ada-f06d7491505f" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http put with correct params when method trySaveChanges called" computerName="MSC-PC0B4RXR" duration="00:00:00.005" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="88409fa3-9b7d-cea4-4431-71168a0ef696" testId="bcb64f9b-356e-5248-bb4a-a5602f1ca0f6" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http put with correct params when method forceSaveChanges called" computerName="MSC-PC0B4RXR" duration="00:00:00.005" startTime="2017-07-19T14:07:24" endTime="2017-07-19T14:07:24" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="602f2764-8ae3-9823-61b5-1616c788c589" testId="0f4d35e6-f1da-2274-7a27-4141ca3428b1" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be defined" computerName="MSC-PC0B4RXR" duration="00:00:00.042" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="5f8d4c80-678d-01d3-9814-d20a50a59465" testId="35336b05-c6e9-3042-5004-fdfc38e25933" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should load seat change log data on init" computerName="MSC-PC0B4RXR" duration="00:00:00.039" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="1723813b-a526-6311-b3f4-5c015252346b" testId="ea8e582d-b8c5-4206-48ab-77784d9564de" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should load seat change log data" computerName="MSC-PC0B4RXR" duration="00:00:00.027" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="71268cf7-5f88-af54-7706-d18fd002ee06" testId="d51971f2-94f1-2c29-7285-62318d6dd4b0" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.374" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="04695267-f83b-fef3-6056-2ec9020f1c9f" testId="b3dd1884-39f6-6bdb-8288-e70eae8c9b8d" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" computerName="MSC-PC0B4RXR" duration="00:00:00.019" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ec9120ea-02c2-1cb9-cdd1-7ffafa82912d" testId="6d8c76f8-25df-1a87-8756-eb4c312b089d" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should get the list of locations on init" computerName="MSC-PC0B4RXR" duration="00:00:00.021" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="63844c9a-bda0-78b6-b276-5b9c392ba480" testId="97019046-1afb-d280-ab8f-76b4e07c6ff3" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should select first location from the list by default" computerName="MSC-PC0B4RXR" duration="00:00:00.018" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="3ceae72c-2709-4b81-7dd6-ce431502eea0" testId="e4629bfa-89c5-5092-98cf-a84cd9060681" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should not select default location when the location list is empty" computerName="MSC-PC0B4RXR" duration="00:00:00.016" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="77c4dac1-d220-b081-9367-b55bab7e15f8" testId="8ec0ca50-ebcf-d666-ef4d-026f49571db3" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set the locationId to the first location from the list by default" computerName="MSC-PC0B4RXR" duration="00:00:00.017" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ebdfc1aa-3a05-e36c-279a-79d0e8514955" testId="97a2f7c2-7d52-da7b-7b70-24d4aad6d9e8" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should initialize the location list" computerName="MSC-PC0B4RXR" duration="00:00:00.016" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="54b3dffc-d44f-3492-e342-249a6c9244a1" testId="067a1ad0-4232-883a-96ed-c370f79e0ac9" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set locationId onLocationChange" computerName="MSC-PC0B4RXR" duration="00:00:00.022" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="52bb2ac5-1fed-2ce0-812b-3284123494a5" testId="310797e4-9e20-b6f3-e554-4696b54f58cb" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be initialized" computerName="MSC-PC0B4RXR" duration="00:00:00.023" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="c2a209e5-4d9c-7ecc-893c-04ca13ff91c4" testId="c1d5cfec-65ea-ee23-5d05-391d7940f303" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.008" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="deb0926c-f4ce-0c6f-36bf-5a49f5709717" testId="b525df36-4b33-ccbe-2f24-57d46b5fadd1" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be defined" computerName="MSC-PC0B4RXR" duration="00:00:00.033" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="44fac320-aaed-ac31-bce7-291bc376d92a" testId="4c53656f-ded4-77ba-6910-3c6ac24e16d4" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should set transitseatsdata and seatsdata correctly" computerName="MSC-PC0B4RXR" duration="00:00:00.029" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="fcf6e448-5fe4-dfec-8fd2-d914eeaaa884" testId="70ac1c4c-e840-e736-6f84-b3ce9607acea" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should have correct value for inTransitOccupied" computerName="MSC-PC0B4RXR" duration="00:00:00.030" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="fdff9599-a121-381f-75b2-5ec9c69ff047" testId="2fce782c-036c-c3a9-fbcd-06195122a43d" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should initialize with in transit area collapsed" computerName="MSC-PC0B4RXR" duration="00:00:00.025" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="9dc54650-8c32-61c6-51b0-818069e2dfa7" testId="d86522d1-dc3f-3878-e7a0-cfd555192169" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should toggle layoutSetting and transit area should show when toggleInTransitView called once" computerName="MSC-PC0B4RXR" duration="00:00:00.029" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="fa34e166-832f-898c-db39-e83e69dcfa3b" testId="25eff079-f6c6-5ee3-9fb7-56e14e0373b7" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should load seats when locationId changes" computerName="MSC-PC0B4RXR" duration="00:00:00.030" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="aef275ec-1ddf-e3b4-96f9-9ee52c23f962" testId="59ae4f7f-c818-0873-aa46-2180a99f0bd3" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should reload seats when seatAction executed" computerName="MSC-PC0B4RXR" duration="00:00:00.027" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="321b382d-cb4d-ffcd-038b-14af3e57d0c2" testId="bb98371d-c446-89f9-5012-8b4304c76f59" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should reload seats for current location when seatAction executed" computerName="MSC-PC0B4RXR" duration="00:00:00.027" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="d7aedde0-e222-9128-6c25-6062d5449a1b" testId="41bac15f-14b6-7efe-d1de-08a7f5743f9b" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call method changeSeatsData of seatsService with correct params when onTransitDropSuccess executed" computerName="MSC-PC0B4RXR" duration="00:00:00.026" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="9fdce29b-d1d4-6af6-6be5-969d366d2baf" testId="15cdc88e-d0ec-f0f2-af9a-2316299051b6" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should be created" computerName="MSC-PC0B4RXR" duration="00:00:00.007" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="a22de7a9-6953-6f41-b1a4-8e2a816f2e0f" testId="a3247f31-1e4a-8310-a035-623daee08bd3" testName="Chrome 59.0.3071 (Windows 10 0.0.0)_should call http get with params" computerName="MSC-PC0B4RXR" duration="00:00:00.018" startTime="2017-07-19T14:07:25" endTime="2017-07-19T14:07:25" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </Results>
+</TestRun>

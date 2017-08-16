@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import
+    "base/variables",
+    "base/mixins",
+    "base/theme",
+    "components/select",
+    "components/input",
+    "components/button",
+    "components/toastr-overrides",
+    "layouts/default",
+    "common",
+    "../app/modules/seats-map/seats-map.component.scss",
+    "../app/core/components/seat/seat.component.scss",
+    "../app/modules/seats-map/navbar/search-bar/search-bar.component.scss",
+    "../app/modules/seats-map/seats/seats.component.scss",
+    "../app/modules/seats-map/navbar/projects/projects.component.scss",
+    "../app/modules/seats-map/history-log/email-dialog/email-dialog.component.scss",
+    "../app/modules/seats-map/history-log/history-log.component.scss";

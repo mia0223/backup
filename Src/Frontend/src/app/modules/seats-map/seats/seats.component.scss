@@ -1,0 +1,37 @@
+.inTransitSeats{
+  width:100%;
+  background-color: white;
+  .inTransitHeader{
+    text-align: center;
+    border-style: solid;
+    border-color: #95989A;
+    border-width: 1px;
+    cursor: pointer;
+    padding:6px;
+    font-size: 13px;
+
+    .arrow{
+      position: relative;
+      top: 2px;
+      color:#808080;
+      font-size:13px
+    }
+
+    #number{
+      color:#9a9a9a;
+    }
+    #title{
+      font-family: 'Roboto', sans-serif;
+      color:#4e4e4e;
+      margin-bottom:5px;
+    }
+  }
+  .inTransitBody{
+    padding:15px;
+    overflow-x:auto;
+    overflow-y: hidden;
+    position: relative;
+  }
+
+}
+

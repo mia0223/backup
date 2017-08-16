@@ -1,0 +1,90 @@
+
+2017-06-21 09:25:23 DEBUG| DELETE:http://localhost/TEK.SeatPlan.WebApi/api/Seat?seatNumber=5
+
+2017-06-21 09:27:22 DEBUG| DELETE:http://localhost/TEK.SeatPlan.WebApi/api/Seat?seatNumber=5
+
+2017-06-21 09:29:34 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/Seat
+2017-06-21 09:29:35 FATAL| System.InvalidCastException: System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at System.ComponentModel.DataAnnotations.StringLengthAttribute.IsValid(Object value)
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   at System.Web.Http.Validation.Validators.DataAnnotationsModelValidator.Validate(ModelMetadata metadata, Object container)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ShallowValidate(ModelMetadata metadata, ValidationContext validationContext, Object container, IEnumerable`1 validators)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateProperties(ModelMetadata metadata, ValidationContext validationContext)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateNodeAndChildren(ModelMetadata metadata, ValidationContext validationContext, Object container, IEnumerable`1 validators)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateProperties(ModelMetadata metadata, ValidationContext validationContext)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateNodeAndChildren(ModelMetadata metadata, ValidationContext validationContext, Object container, IEnumerable`1 validators)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateProperties(ModelMetadata metadata, ValidationContext validationContext)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateNodeAndChildren(ModelMetadata metadata, ValidationContext validationContext, Object container, IEnumerable`1 validators)
+   at System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+2017-06-21 09:32:09 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/Seat
+2017-06-21 09:32:10 FATAL| System.InvalidCastException: System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at System.ComponentModel.DataAnnotations.StringLengthAttribute.IsValid(Object value)
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   at System.Web.Http.Validation.Validators.DataAnnotationsModelValidator.Validate(ModelMetadata metadata, Object container)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ShallowValidate(ModelMetadata metadata, ValidationContext validationContext, Object container, IEnumerable`1 validators)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateProperties(ModelMetadata metadata, ValidationContext validationContext)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateNodeAndChildren(ModelMetadata metadata, ValidationContext validationContext, Object container, IEnumerable`1 validators)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateProperties(ModelMetadata metadata, ValidationContext validationContext)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateNodeAndChildren(ModelMetadata metadata, ValidationContext validationContext, Object container, IEnumerable`1 validators)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateProperties(ModelMetadata metadata, ValidationContext validationContext)
+   at System.Web.Http.Validation.DefaultBodyModelValidator.ValidateNodeAndChildren(ModelMetadata metadata, ValidationContext validationContext, Object container, IEnumerable`1 validators)
+   at System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+2017-06-21 09:32:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/Seat?seatNumber=3
+
+2017-06-21 09:48:44 DEBUG| DELETE:http://localhost/TEK.SeatPlan.WebApi/api/Seat?seatNumber=5
+
+2017-06-21 09:49:38 DEBUG| DELETE:http://localhost/TEK.SeatPlan.WebApi/api/Seat?seatNumber=5
+
+2017-06-21 11:46:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-21 11:46:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-21 11:46:41 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-21 11:46:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-06-21 11:46:42 INFO | 67 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-21 11:46:42 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-21 13:27:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-21 13:27:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-21 13:27:21 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-21 13:27:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-06-21 13:27:22 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-21 13:27:22 INFO | 67 records of type: Seat retrieved by user: CORPORATE\chewang

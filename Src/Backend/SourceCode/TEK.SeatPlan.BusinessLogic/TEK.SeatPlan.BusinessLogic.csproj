@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E541E1B-BD05-4A25-8FF2-8B0A6B2E0B0F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TEK.SeatPlan.BusinessLogic</RootNamespace>
+    <AssemblyName>TEK.SeatPlan.BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>..\TEK.SeatPlan.Code.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>..\TEK.SeatPlan.Code.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CI|AnyCPU'">
+    <OutputPath>bin\CI\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>..\TEK.SeatPlan.Code.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="AccessLogger.cs" />
+    <Compile Include="DataComponents\ColorPickingComponent.cs" />
+    <Compile Include="DataComponents\DataComponentBase.cs" />
+    <Compile Include="DataComponents\EmailComponent.cs" />
+    <Compile Include="DataComponents\EmailTemplateComponent.cs" />
+    <Compile Include="DataComponents\EmployeeComponent.cs" />
+    <Compile Include="DataComponents\EmployeeSeatComponent.cs" />
+    <Compile Include="DataComponents\ProjectColorPairComponent.cs" />
+    <Compile Include="DataComponents\ProjectComponent.cs" />
+    <Compile Include="DataComponents\Randomizer.cs" />
+    <Compile Include="DataComponents\SeatChangeLogComponent.cs" />
+    <Compile Include="DataComponents\MoveComponent.cs" />
+    <Compile Include="DataComponents\VersionComponent.cs" />
+    <Compile Include="DataServices\DataService.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Mappers\EmployeeMapper.cs" />
+    <Compile Include="Mappers\EmployeeStatusMapper.cs" />
+    <Compile Include="Mappers\LocationMapper.cs" />
+    <Compile Include="Mappers\ProjectMapper.cs" />
+    <Compile Include="Mappers\SeatChangeLogMapper.cs" />
+    <Compile Include="Mappers\SeatMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TEK.SeatPlan.BusinessLogic.Contract\TEK.SeatPlan.BusinessLogic.Contract.csproj">
+      <Project>{01998e57-64cc-498b-8857-024eabf21d04}</Project>
+      <Name>TEK.SeatPlan.BusinessLogic.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TEK.SeatPlan.Common\TEK.SeatPlan.Common.csproj">
+      <Project>{6A02E86A-FB0B-4555-A460-BB13C6BE88A4}</Project>
+      <Name>TEK.SeatPlan.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TEK.SeatPlan.Dto\TEK.SeatPlan.Dto.csproj">
+      <Project>{65426d3c-15ee-4484-9f54-0f83f2ad7ceb}</Project>
+      <Name>TEK.SeatPlan.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TEK.SeatPlan.Entity\TEK.SeatPlan.Entity.csproj">
+      <Project>{1A5844FC-7B95-443D-B5AF-541421FF50FA}</Project>
+      <Name>TEK.SeatPlan.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TEK.SeatPlan.ResourceAccess.Contract\TEK.SeatPlan.ResourceAccess.Contract.csproj">
+      <Project>{29d29ca7-911c-4974-bebd-e3e9f78d0482}</Project>
+      <Name>TEK.SeatPlan.ResourceAccess.Contract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDictionary Include="..\..\CustomDictionary.xml">
+      <Link>CustomDictionary.xml</Link>
+    </CodeAnalysisDictionary>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\GroupMailTemplate_editable.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\GroupMailRowTemplate.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\EmailMailTemplate_Section1.html" />
+    <EmbeddedResource Include="Resources\EmailMailTemplate_Section2.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\GroupMailTemplate_full.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

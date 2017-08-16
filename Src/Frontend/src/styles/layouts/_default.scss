@@ -1,0 +1,68 @@
+header {
+    padding: 20px 15px 15px;
+    background-color: map-get($base-colors, white);
+    border-bottom: 1px solid map-get($base-colors, grey);
+}
+
+.officeSeats {
+  overflow-y: auto;
+  position: relative;
+  background-color: rgb(255, 250, 240);
+}
+
+footer {
+  border-top: 1px solid map-get($base-colors, grey);
+  background-color: map-get($base-colors, white);
+}
+
+.transit {
+  font-size: 12px;
+
+  i {
+      float: left;
+  }
+  span {
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 24px;
+  }
+}
+
+.dialog{
+  min-height: 420px;
+  width: 300px;
+  padding: 24px;
+}
+
+.admin-dialog{
+  min-height: 520px;
+  width: 300px;
+  padding: 24px;
+}
+
+.project-dialog{
+  min-height: 300px;
+  width: 300px;
+  padding: 24px;
+}
+
+.confirmationDialog{
+  height: 233px;
+  width: 393px;
+  font-family: 'Roboto';
+  padding: 24px;
+
+    .heading{
+      text-align: center;
+      padding:15px;
+      color: #757575;
+      font-size: 20px;
+    }
+
+    .content{
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+  }
+
+}

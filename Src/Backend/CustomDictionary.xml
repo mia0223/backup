@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary>
+  <Words>
+    <Recognized>
+      <Word>tek</Word>      
+      <Word>api</Word>
+      <Word>ioc</Word>
+      <Word>BootStrapper</Word>
+      <Word>DefaultExceptionHandler</Word>
+      <Word>DefaultExceptionLogger</Word>
+      <Word>IDeletable</Word>
+      <Word>Deletable</Word>
+      <Word>Upsert</Word>
+      <Word>Dto</Word>
+      <Word>eMail</Word>
+    </Recognized>
+  </Words>
+</Dictionary>

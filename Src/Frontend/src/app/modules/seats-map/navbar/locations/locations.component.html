@@ -1,0 +1,5 @@
+<md-select id="seat_map_label" [ngClass]="'mat-no-underline'" [(ngModel)]="selectedLocation" placeholder="MIC Seat Map" (change)="onLocationChange()">
+    <md-option *ngFor="let location of locations" [value]="location">
+        {{location.name}}
+    </md-option>
+</md-select>

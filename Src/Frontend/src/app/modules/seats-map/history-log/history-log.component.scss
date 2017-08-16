@@ -1,0 +1,79 @@
+.history-log-panel-wrapper {
+    height: 70px;
+    background-color: #F4F2EF;
+}
+
+.history-log{
+  height: 100vh !important;
+}
+
+
+.history-panel-close-icon {
+    float: right;
+    margin-top: 20px;
+    margin-right: 35px;
+}
+
+.history-panel-close-icon:hover {
+    cursor: pointer;
+}
+
+.history-log-panel-date-wrapper {
+    padding-left: 20px;
+    border-bottom: #ddd 1px solid;
+    height: 50px;
+    background-color: #F7F7F5
+}
+
+.history-log-panel-date {
+    position: relative;
+    top: 25px;
+    font-size: 12px;
+    color: #42A6B3;
+}
+
+.log-item-wrapper {
+    display: flex;
+}
+
+.log-item-wrapper:nth-child(even) {
+    background-color: white;
+}
+
+.log-item {
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 70px;
+    border-bottom: 1px solid #ddd
+}
+
+.email-sent {
+    color: red;
+}
+
+.checkbox {
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.font-bold {
+    font-weight: bold
+}
+
+.email-button-wrapper {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.email-button {
+    height: 34px;
+    width: 245px;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.select-all-checkbox {
+    margin-left: 20px;
+}

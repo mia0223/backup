@@ -1,0 +1,42 @@
+// set you colors fonts and so on EX:
+
+$base-colors : (
+    black: rgb(0, 0, 0),
+    white: rgb(255, 255, 255),
+    light-grey: rgb(220, 220, 220),
+    grey: rgb(200, 200, 200),
+    dark-grey: rgb(100, 100, 100)
+);
+
+$seat-map-theme: (
+  50: #e3f2fd,
+  100: #bbdefb,
+  200: #90caf9,
+  300: #64b5f6,
+  400: #42a5f5,
+  500: #006FA6,
+  600: #1e88e5,
+  700: #1976d2,
+  800: #1565c0,
+  900: #0d47a1,
+  A100: #82b1ff,
+  A200: #448aff,
+  A400: #2979ff,
+  A700: #2962ff,
+  contrast: (
+    50: rgba(0,0,0,.87),
+    100: rgba(0,0,0,.87),
+    200: rgba(0,0,0,.87),
+    300: rgba(0,0,0,.87),
+    400: rgba(0,0,0,.87),
+    500: white,
+    600: white,
+    700: white,
+    800: rgba(0,0,0,.87),
+    900: rgba(0,0,0,.87),
+    A100: rgba(0,0,0,.87),
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);

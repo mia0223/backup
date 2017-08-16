@@ -1,0 +1,11 @@
+<div>
+  <md-input-container>
+    <input mdInput id="search_text" type="search" placeholder="Technical Service Manager" [mdAutocomplete]="auto" [formControl]="searchCtrl"
+           [(ngModel)]="selectedManager" (change)="sendManager()">
+  </md-input-container>
+  <md-autocomplete #auto="mdAutocomplete" [displayWith]="fullName">
+    <md-option *ngFor="let option of filteredOptions | async" [value]="option" ngDefaultControl (onSelectionChange)="changeManager($event)">
+      {{ fullName(option) }}
+    </md-option>
+  </md-autocomplete>
+</div>

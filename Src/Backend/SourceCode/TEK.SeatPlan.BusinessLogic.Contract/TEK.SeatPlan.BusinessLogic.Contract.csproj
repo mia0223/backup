@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01998E57-64CC-498B-8857-024EABF21D04}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TEK.SeatPlan.BusinessLogic.Contract</RootNamespace>
+    <AssemblyName>TEK.SeatPlan.BusinessLogic.Contract</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>..\TEK.SeatPlan.Code.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>..\TEK.SeatPlan.Code.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CI|AnyCPU'">
+    <OutputPath>bin\CI\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>..\TEK.SeatPlan.Code.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="DataComponents\IColorPickingComponent.cs" />
+    <Compile Include="DataComponents\IEmailTemplateComponent.cs" />
+    <Compile Include="DataComponents\IEmployeeComponent.cs" />
+    <Compile Include="DataComponents\IMessageSenderComponent.cs" />
+    <Compile Include="DataComponents\IProjectComponent.cs" />
+    <Compile Include="DataComponents\IRandomizer.cs" />
+    <Compile Include="DataComponents\IMoveComponent.cs" />
+    <Compile Include="DataComponents\IProjectColorPairComponent.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="IAccessLogger.cs" />
+    <Compile Include="DataServices\ICreatable.cs" />
+    <Compile Include="DataServices\IDataService.cs" />
+    <Compile Include="DataServices\IDeletable.cs" />
+    <Compile Include="DataComponents\IEmployeeSeatComponent.cs" />
+    <Compile Include="DataServices\IRetrievable.cs" />
+    <Compile Include="DataComponents\ISeatChangeLogComponent.cs" />
+    <Compile Include="DataServices\IUpdatable.cs" />
+    <Compile Include="DataComponents\IVersionComponent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeatPair.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDictionary Include="..\..\CustomDictionary.xml">
+      <Link>CustomDictionary.xml</Link>
+    </CodeAnalysisDictionary>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TEK.SeatPlan.Dto\TEK.SeatPlan.Dto.csproj">
+      <Project>{65426d3c-15ee-4484-9f54-0f83f2ad7ceb}</Project>
+      <Name>TEK.SeatPlan.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TEK.SeatPlan.Entity\TEK.SeatPlan.Entity.csproj">
+      <Project>{1A5844FC-7B95-443D-B5AF-541421FF50FA}</Project>
+      <Name>TEK.SeatPlan.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

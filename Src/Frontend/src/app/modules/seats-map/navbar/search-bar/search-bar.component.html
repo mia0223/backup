@@ -1,0 +1,13 @@
+<label class="search-bar__label" for="search_text">
+    <i class="material-icons">search</i>
+</label>
+<div class="search-bar__input">
+    <md-input-container>
+        <input mdInput id="search_text" type="search" placeholder="Search" [mdAutocomplete]="auto" [formControl]="searchCtrl">
+    </md-input-container>
+    <md-autocomplete #auto="mdAutocomplete" [displayWith]="fullName">
+        <md-option *ngFor="let option of filteredOptions | async" [value]="option" (onSelectionChange)="onSelectionChange($event)">
+            {{ fullName(option) }}
+        </md-option>
+    </md-autocomplete>
+</div>

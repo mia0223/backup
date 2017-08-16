@@ -1,0 +1,27 @@
+<div fxLayout="column"
+     fxFlex="1 1 calc(100vh - 70px)"
+     fxLayoutAlign="space-between stretch">
+  <div  class = "officeSeats" [fxFlex]="layoutSetting.officeSeatsFlexSize">
+    <app-seat *ngFor="let item of seatsData"
+        [item]="item">
+    </app-seat>
+  </div>
+  <footer
+    fxLayout = "row"
+    fxFlex = "140px">
+    <div fxLayout = "column" dnd-droppable (onDropSuccess)="onTransitDropSuccess($event)" class = "inTransitSeats" >
+      <div class = "inTransitHeader" fxFlex="30px" (click) = "toggleInTransitView()">
+        <i class = "material-icons arrow"><b>{{layoutSetting.inTransitArrow}}</b></i>
+        <span id = "title" ><b>IN TRANSIT</b></span>
+        <span id = "number">({{inTransitOccupied}})</span>
+      </div>
+      <div class = "inTransitBody" [fxFlex]="layoutSetting.transitSeatsFlexSize" >
+        <div fxLayout="row" fxLayoutAlign="left" fxLayoutGap="30px">
+          <div fxFlex = '95px' *ngFor="let item of transitSeatsData">
+            <app-seat [item]="item" ></app-seat>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>

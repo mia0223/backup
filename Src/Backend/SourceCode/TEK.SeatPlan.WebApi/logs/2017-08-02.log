@@ -1,0 +1,1289 @@
+
+2017-08-02 09:55:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+
+
+2017-08-02 09:55:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-08-02 09:55:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-08-02 09:55:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 09:56:01 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-08-02 09:56:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-08-02 09:56:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 09:56:01 INFO | 69 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 09:56:01 INFO | 98 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 09:56:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 09:56:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 09:56:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 09:56:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-08-02 09:56:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 09:56:12 INFO | Get all project called - find in repo
+2017-08-02 09:56:12 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 09:56:12 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 09:56:34 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 09:56:34 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 09:56:34 DEBUG| Re-use existing transit seat [9009]
+2017-08-02 09:56:34 DEBUG| Move employee with ID=[157] from seat [56] to seat [9009] started
+2017-08-02 09:56:34 FATAL| 8AFF6FE | System.InvalidOperationException: System.InvalidOperationException: The instance of entity type 'EmployeeStatus' cannot be tracked because another instance of this type with the same key is already being tracked. When adding new entities, for most key types a unique temporary key value will be created if no key is set (i.e. if the key property is assigned the default value for its type). If you are explicitly setting key values for new entities, ensure they do not collide with existing entities or temporary values generated for other new entities. When attaching existing entities, ensure that only one entity instance with a given key value is attached to the context.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph(EntityEntryGraphNode node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph(EntityEntryGraphNode node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph(EntityEntryGraphNode node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at TEK.SeatPlan.ResourceAccess.Repository`1.Attach(BaseEntity entity) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess\Repository.cs:line 37
+   at TEK.SeatPlan.BusinessLogic.EmployeeComponent.CreateEmployee(Employee employee) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\EmployeeComponent.cs:line 76
+   at TEK.SeatPlan.WebApi.Controllers.EmployeeController.Post(Employee employee) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\EmployeeController.cs:line 31
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+2017-08-02 09:56:34 DEBUG| Drag/Drop move employee with ID=[157] from seat [56] to seat [9009] completed
+
+2017-08-02 09:57:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 09:57:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:03:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:03:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:03:23 FATAL| EE6BAD8 | System.Data.SqlClient.SqlException: System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employee'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, String executeMethod, IReadOnlyDictionary`2 parameterValues, Boolean closeConnection)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__15`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TEK.SeatPlan.BusinessLogic.Mappers.EmployeeMapper.ToDto(IEnumerable`1 employeeEntities) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\Mappers\EmployeeMapper.cs:line 45
+   at TEK.SeatPlan.BusinessLogic.EmployeeComponent.GetEmployee() in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\EmployeeComponent.cs:line 41
+   at TEK.SeatPlan.WebApi.Controllers.EmployeeController.Get() in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\EmployeeController.cs:line 26
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+ClientConnectionId:aa91ec7f-f1b1-4b92-8f24-731b568e13cb
+Error Number:208,State:1,Class:16
+
+2017-08-02 10:03:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:03:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-08-02 10:03:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:03:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-08-02 10:03:42 FATAL| 5A6EF816 | System.Data.SqlClient.SqlException: System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employee'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, String executeMethod, IReadOnlyDictionary`2 parameterValues, Boolean closeConnection)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__15`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TEK.SeatPlan.BusinessLogic.Mappers.EmployeeMapper.ToDto(IEnumerable`1 employeeEntities) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\Mappers\EmployeeMapper.cs:line 45
+   at TEK.SeatPlan.BusinessLogic.EmployeeComponent.GetEmployee() in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\EmployeeComponent.cs:line 41
+   at TEK.SeatPlan.WebApi.Controllers.EmployeeController.Get() in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\EmployeeController.cs:line 26
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+ClientConnectionId:aa91ec7f-f1b1-4b92-8f24-731b568e13cb
+Error Number:208,State:1,Class:16
+2017-08-02 10:03:43 FATAL| 5A670DC7 | System.Data.SqlClient.SqlException: System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Location'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, String executeMethod, IReadOnlyDictionary`2 parameterValues, Boolean closeConnection)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__15`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at TEK.SeatPlan.BusinessLogic.DataService`1.Find(Expression`1 predicate, Func`2 orderBy, Expression`1[] include) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataServices\DataService.cs:line 106
+   at TEK.SeatPlan.BusinessLogic.DataService`1.Find(Expression`1 predicate, Func`2 orderBy) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataServices\DataService.cs:line 94
+   at TEK.SeatPlan.WebApi.Controllers.LocationController.Get() in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\LocationController.cs:line 20
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+ClientConnectionId:4ef062cc-dcc9-44ba-90e3-0a00f4e78994
+Error Number:208,State:1,Class:16
+2017-08-02 10:03:44 FATAL| 393FC706 | System.Data.SqlClient.SqlException: System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'SeatChangeLog'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, String executeMethod, IReadOnlyDictionary`2 parameterValues, Boolean closeConnection)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_Include>d__30`1.MoveNext()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__15`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at TEK.SeatPlan.BusinessLogic.DataService`1.Find(Expression`1 predicate, Func`2 orderBy, Expression`1[] include) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataServices\DataService.cs:line 106
+   at TEK.SeatPlan.BusinessLogic.SeatChangeLogComponent.GetSeatChangeLogByDate(DateTime actionDate) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\SeatChangeLogComponent.cs:line 35
+   at TEK.SeatPlan.BusinessLogic.SeatChangeLogComponent.GetSeatChangeLog() in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\SeatChangeLogComponent.cs:line 23
+   at TEK.SeatPlan.WebApi.Controllers.SeatChangeLogController.Get() in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\SeatChangeLogController.cs:line 20
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+ClientConnectionId:4ef062cc-dcc9-44ba-90e3-0a00f4e78994
+Error Number:208,State:1,Class:16
+
+2017-08-02 10:07:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+
+
+2017-08-02 10:07:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-08-02 10:07:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-08-02 10:07:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:07:04 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-08-02 10:07:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-08-02 10:07:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:07:05 INFO | 69 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:07:05 INFO | 98 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:07:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:07:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:07:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-08-02 10:07:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:07:15 INFO | Get all project called - find in repo
+
+2017-08-02 10:07:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:07:15 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 10:07:15 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:07:41 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:07:41 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:07:41 DEBUG| Re-use existing transit seat [9009]
+2017-08-02 10:07:42 DEBUG| Move employee with ID=[143] from seat [56] to seat [9009] started
+2017-08-02 10:07:42 FATAL| 3BE2AF40 | System.InvalidOperationException: System.InvalidOperationException: The instance of entity type 'EmployeeStatus' cannot be tracked because another instance of this type with the same key is already being tracked. When adding new entities, for most key types a unique temporary key value will be created if no key is set (i.e. if the key property is assigned the default value for its type). If you are explicitly setting key values for new entities, ensure they do not collide with existing entities or temporary values generated for other new entities. When attaching existing entities, ensure that only one entity instance with a given key value is attached to the context.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph(EntityEntryGraphNode node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph(EntityEntryGraphNode node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph(EntityEntryGraphNode node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at TEK.SeatPlan.ResourceAccess.Repository`1.Attach(BaseEntity entity) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess\Repository.cs:line 37
+   at TEK.SeatPlan.BusinessLogic.EmployeeComponent.CreateEmployee(Employee employee) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\EmployeeComponent.cs:line 76
+   at TEK.SeatPlan.WebApi.Controllers.EmployeeController.Post(Employee employee) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\EmployeeController.cs:line 31
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+2017-08-02 10:07:42 DEBUG| Drag/Drop move employee with ID=[143] from seat [56] to seat [9009] completed
+
+2017-08-02 10:08:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:08:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:10:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:10:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:10:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:10:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:10:40 INFO | Get all project called - find in repo
+
+2017-08-02 10:10:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:10:40 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:10:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:10:40 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:10:58 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:10:58 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:10:58 DEBUG| Re-use existing transit seat [9010]
+2017-08-02 10:10:58 DEBUG| Move employee with ID=[88] from seat [52] to seat [9010] started
+2017-08-02 10:10:59 DEBUG| Drag/Drop move employee with ID=[88] from seat [52] to seat [9010] completed
+
+2017-08-02 10:10:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:11:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:11:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:11:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-08-02 10:11:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-08-02 10:11:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:11:09 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+
+2017-08-02 10:11:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-08-02 10:11:09 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:11:09 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-08-02 10:11:09 INFO | 68 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:11:09 INFO | 98 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:20 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:11:20 DEBUG| Move employee with ID=[143] from seat [9009] to seat [56] started
+2017-08-02 10:11:20 DEBUG| Transit seat [9009] soft-delete
+2017-08-02 10:11:20 DEBUG| Drag/Drop move employee with ID=[143] from seat [9009] to seat [56] completed
+
+2017-08-02 10:11:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-08-02 10:11:20 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-08-02 10:11:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:11:21 INFO | 97 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:32 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:11:32 DEBUG| Re-use existing transit seat [9009]
+2017-08-02 10:11:32 DEBUG| Move employee with ID=[41] from seat [49] to seat [9009] started
+2017-08-02 10:11:32 DEBUG| Drag/Drop move employee with ID=[41] from seat [49] to seat [9009] completed
+
+2017-08-02 10:11:32 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-08-02 10:11:32 INFO | 4 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-08-02 10:11:32 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:11:32 INFO | 98 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:36 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:11:36 DEBUG| Move employee with ID=[41] from seat [9009] to seat [49] started
+2017-08-02 10:11:36 DEBUG| Transit seat [9009] soft-delete
+2017-08-02 10:11:36 DEBUG| Drag/Drop move employee with ID=[41] from seat [9009] to seat [49] completed
+
+2017-08-02 10:11:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-08-02 10:11:36 INFO | 5 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-08-02 10:11:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:11:36 INFO | 97 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:38 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:11:38 DEBUG| Move employee with ID=[88] from seat [9010] to seat [54] started
+2017-08-02 10:11:38 DEBUG| Transit seat [9010] soft-delete
+2017-08-02 10:11:38 DEBUG| Drag/Drop move employee with ID=[88] from seat [9010] to seat [54] completed
+
+2017-08-02 10:11:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-08-02 10:11:38 INFO | 6 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-08-02 10:11:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:11:38 INFO | 96 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:11:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-08-02 10:11:40 INFO | Get all project called - find in repo
+2017-08-02 10:11:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat/88
+2017-08-02 10:11:40 INFO | 204 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-08-02 10:11:40 INFO | 70 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:11:41 INFO | 96 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:43 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/employeeseat
+2017-08-02 10:11:43 DEBUG| Updating project for Employee ID=[88] to [2]
+2017-08-02 10:11:43 INFO | Update-Employee-Seat-Project completed
+
+2017-08-02 10:11:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-08-02 10:11:43 INFO | 6 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-08-02 10:11:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+
+2017-08-02 10:11:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-08-02 10:11:43 INFO | 96 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:11:43 INFO | 70 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:11:43 INFO | 96 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:11:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:11:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:12:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-08-02 10:12:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-08-02 10:12:06 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+2017-08-02 10:12:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:12:06 INFO | 6 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-08-02 10:12:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-08-02 10:12:06 INFO | 70 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:12:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-08-02 10:12:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:12:08 INFO | 70 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:12:08 INFO | 96 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:16:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:16:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-08-02 10:16:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-08-02 10:16:28 INFO | 6 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-08-02 10:16:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:16:28 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-08-02 10:16:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-08-02 10:16:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 10:16:28 INFO | 70 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:16:28 INFO | 96 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:16:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:16:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+
+2017-08-02 10:16:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:16:59 INFO | 204 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:16:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:16:59 INFO | Get all project called - find in repo
+
+2017-08-02 10:17:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:17:02 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:17:26 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+
+2017-08-02 10:17:26 DEBUG| Re-use existing transit seat [9009]
+2017-08-02 10:17:26 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:17:26 DEBUG| Move employee with ID=[46] from seat [57] to seat [9009] started
+2017-08-02 10:17:26 DEBUG| Drag/Drop move employee with ID=[46] from seat [57] to seat [9009] completed
+
+2017-08-02 10:17:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:17:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:17:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:18:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:18:11 INFO | 205 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:18:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:18:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-08-02 10:18:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:18:11 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 10:18:11 INFO | Get all project called - find in repo
+
+2017-08-02 10:18:35 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:18:35 DEBUG| Re-use existing transit seat [9010]
+
+2017-08-02 10:18:35 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:18:35 DEBUG| Move employee with ID=[76] from seat [79] to seat [9010] started
+
+2017-08-02 10:18:35 DEBUG| Drag/Drop move employee with ID=[76] from seat [79] to seat [9010] completed
+2017-08-02 10:18:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:19:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:19:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:19:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:19:20 INFO | Get all project called - find in repo
+
+2017-08-02 10:19:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 10:19:20 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:19:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-08-02 10:19:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:19:47 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+
+2017-08-02 10:19:47 DEBUG| Re-use existing transit seat [9011]
+2017-08-02 10:19:47 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:19:47 DEBUG| Move employee with ID=[63] from seat [30] to seat [9011] started
+2017-08-02 10:19:47 DEBUG| Drag/Drop move employee with ID=[63] from seat [30] to seat [9011] completed
+
+2017-08-02 10:19:47 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:21:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:21:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:21:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:21:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:21:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-08-02 10:21:46 INFO | Get all project called - find in repo
+2017-08-02 10:21:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:21:46 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:21:47 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:22:07 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:22:07 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:22:07 DEBUG| New transit seat [9012] will be created
+
+2017-08-02 10:22:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:22:07 DEBUG| Move employee with ID=[159] from seat [21] to seat [9012] started
+2017-08-02 10:22:07 DEBUG| Drag/Drop move employee with ID=[159] from seat [21] to seat [9012] completed
+
+2017-08-02 10:23:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:23:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:23:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:23:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:23:22 INFO | Get all project called - find in repo
+
+2017-08-02 10:23:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:23:22 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:23:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 10:23:22 INFO | 207 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:23:41 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:23:41 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:23:41 DEBUG| New transit seat [9013] will be created
+2017-08-02 10:23:41 DEBUG| Move employee with ID=[122] from seat [103] to seat [9013] started
+2017-08-02 10:23:42 DEBUG| Drag/Drop move employee with ID=[122] from seat [103] to seat [9013] completed
+
+2017-08-02 10:23:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:25:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:25:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:25:54 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:25:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:25:54 INFO | Get all project called - find in repo
+2017-08-02 10:25:54 INFO | 208 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:26:20 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+
+2017-08-02 10:26:20 DEBUG| New transit seat [9014] will be created
+2017-08-02 10:26:20 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:26:20 DEBUG| Move employee with ID=[60] from seat [62] to seat [9014] started
+
+2017-08-02 10:26:20 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:26:20 DEBUG| Drag/Drop move employee with ID=[60] from seat [62] to seat [9014] completed
+
+2017-08-02 10:33:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+
+2017-08-02 10:33:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-08-02 10:33:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-08-02 10:33:31 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-08-02 10:33:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+
+2017-08-02 10:33:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-08-02 10:33:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:33:31 INFO | 69 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:33:31 INFO | 98 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:33:33 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+
+
+2017-08-02 10:33:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 10:33:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:33:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:33:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:33:34 INFO | Get all project called - find in repo
+2017-08-02 10:33:34 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 10:33:35 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:33:53 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:33:53 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:33:53 DEBUG| Re-use existing transit seat [9009]
+2017-08-02 10:33:53 DEBUG| Move employee with ID=[88] from seat [52] to seat [9009] started
+2017-08-02 10:33:53 DEBUG| Drag/Drop move employee with ID=[88] from seat [52] to seat [9009] completed
+
+2017-08-02 10:33:53 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:34:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:34:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:34:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-08-02 10:34:02 INFO | Get all project called - find in repo
+2017-08-02 10:34:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:34:02 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 10:34:02 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:34:33 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+
+2017-08-02 10:34:33 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:34:33 DEBUG| Re-use existing transit seat [9010]
+2017-08-02 10:34:33 DEBUG| Move employee with ID=[143] from seat [56] to seat [9010] started
+2017-08-02 10:34:33 DEBUG| Drag/Drop move employee with ID=[143] from seat [56] to seat [9010] completed
+
+2017-08-02 10:34:33 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:34:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:34:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:34:55 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:34:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:34:55 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:34:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:34:55 INFO | Get all project called - find in repo
+
+2017-08-02 10:35:18 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+
+2017-08-02 10:35:18 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:35:18 DEBUG| Re-use existing transit seat [9011]
+2017-08-02 10:35:18 DEBUG| Move employee with ID=[32] from seat [85] to seat [9011] started
+2017-08-02 10:35:18 DEBUG| Drag/Drop move employee with ID=[32] from seat [85] to seat [9011] completed
+
+2017-08-02 10:35:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:36:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:36:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:36:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:36:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:36:15 INFO | Get all project called - find in repo
+
+2017-08-02 10:36:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:36:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:36:15 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:36:45 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+
+2017-08-02 10:36:45 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:36:45 DEBUG| New transit seat [9012] will be created
+2017-08-02 10:36:45 DEBUG| Move employee with ID=[158] from seat [79] to seat [9012] started
+
+2017-08-02 10:36:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:36:45 DEBUG| Drag/Drop move employee with ID=[158] from seat [79] to seat [9012] completed
+
+2017-08-02 10:38:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/Seat?seatNumber=1
+
+2017-08-02 10:45:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:45:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:45:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:45:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:45:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:45:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-08-02 10:45:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:45:24 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:45:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:45:24 INFO | Get all project called - find in repo
+2017-08-02 10:45:24 INFO | 207 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:45:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:45:30 INFO | Get all project called - find in repo
+
+2017-08-02 10:45:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:45:30 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:45:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:45:30 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 10:45:30 INFO | 207 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:45:54 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+
+2017-08-02 10:45:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/seat
+
+2017-08-02 10:45:54 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:45:54 DEBUG| New transit seat [9013] will be created
+2017-08-02 10:45:54 DEBUG| Move employee with ID=[61] from seat [74] to seat [9013] started
+2017-08-02 10:45:54 DEBUG| Drag/Drop move employee with ID=[61] from seat [74] to seat [9013] completed
+2017-08-02 10:45:54 FATAL| 82F3CA4E | System.InvalidOperationException: System.InvalidOperationException: The instance of entity type 'EmployeeStatus' cannot be tracked because another instance of this type with the same key is already being tracked. When adding new entities, for most key types a unique temporary key value will be created if no key is set (i.e. if the key property is assigned the default value for its type). If you are explicitly setting key values for new entities, ensure they do not collide with existing entities or temporary values generated for other new entities. When attaching existing entities, ensure that only one entity instance with a given key value is attached to the context.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph(EntityEntryGraphNode node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph(EntityEntryGraphNode node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph(EntityEntryGraphNode node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at TEK.SeatPlan.ResourceAccess.Repository`1.Attach(BaseEntity entity) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.ResourceAccess\Repository.cs:line 37
+   at TEK.SeatPlan.BusinessLogic.EmployeeComponent.CreateEmployee(Employee employee) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.BusinessLogic\DataComponents\EmployeeComponent.cs:line 76
+   at TEK.SeatPlan.WebApi.Controllers.EmployeeController.Post(Employee employee) in C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.WebApi\Controllers\EmployeeController.cs:line 31
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+2017-08-02 10:46:23 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:46:23 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:47:10 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 10:47:10 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:47:55 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+
+2017-08-02 10:47:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 10:47:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:47:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:47:56 INFO | Get all project called - find in repo
+2017-08-02 10:47:56 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 10:47:56 INFO | 208 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:48:25 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:48:25 DEBUG| New transit seat [9014] will be created
+2017-08-02 10:48:25 DEBUG| Move employee with ID=[46] from seat [57] to seat [9014] started
+2017-08-02 10:48:25 DEBUG| Drag/Drop move employee with ID=[46] from seat [57] to seat [9014] completed
+
+2017-08-02 10:50:37 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:50:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:51:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 10:51:00 INFO | 209 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:51:00 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:51:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-08-02 10:51:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:51:02 INFO | Get all project called - find in repo
+2017-08-02 10:51:02 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:51:26 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:51:26 DEBUG| New transit seat [9015] will be created
+2017-08-02 10:51:26 DEBUG| Move employee with ID=[106] from seat [190] to seat [9015] started
+2017-08-02 10:51:26 DEBUG| Drag/Drop move employee with ID=[106] from seat [190] to seat [9015] completed
+
+2017-08-02 10:51:54 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:51:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:52:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 10:52:24 INFO | 210 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:52:25 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:52:25 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-08-02 10:52:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:52:26 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:52:56 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:52:56 DEBUG| New transit seat [9016] will be created
+2017-08-02 10:52:56 DEBUG| Move employee with ID=[33] from seat [75] to seat [9016] started
+2017-08-02 10:52:56 DEBUG| Drag/Drop move employee with ID=[33] from seat [75] to seat [9016] completed
+
+2017-08-02 10:53:44 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:53:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:54:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 10:54:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 10:54:05 INFO | 211 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:54:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:54:05 INFO | Get all project called - find in repo
+
+2017-08-02 10:54:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:54:05 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:54:32 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:54:32 DEBUG| New transit seat [9017] will be created
+2017-08-02 10:54:32 DEBUG| Move employee with ID=[10] from seat [155] to seat [9017] started
+2017-08-02 10:54:32 DEBUG| Drag/Drop move employee with ID=[10] from seat [155] to seat [9017] completed
+
+2017-08-02 10:55:59 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:55:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:56:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 10:56:52 INFO | 212 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:56:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:56:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:56:52 INFO | Get all project called - find in repo
+
+2017-08-02 10:56:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:56:52 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:57:11 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:57:11 DEBUG| New transit seat [9018] will be created
+2017-08-02 10:57:11 DEBUG| Move employee with ID=[125] from seat [136] to seat [9018] started
+2017-08-02 10:57:11 DEBUG| Drag/Drop move employee with ID=[125] from seat [136] to seat [9018] completed
+
+2017-08-02 10:57:13 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:57:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:57:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 10:57:50 INFO | 213 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 10:57:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:57:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 10:57:50 INFO | Get all project called - find in repo
+
+2017-08-02 10:57:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 10:57:50 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+
+2017-08-02 10:58:31 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 10:58:31 DEBUG| New transit seat [9019] will be created
+2017-08-02 10:58:31 DEBUG| Move employee with ID=[85] from seat [161] to seat [9019] started
+2017-08-02 10:58:31 DEBUG| Drag/Drop move employee with ID=[85] from seat [161] to seat [9019] completed
+
+2017-08-02 10:58:34 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 10:58:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:00:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 11:00:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:00:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 11:00:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:00:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 11:00:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:01:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 11:01:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:02:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:02:21 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 11:07:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 11:07:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:14:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 11:14:32 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:15:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 11:15:34 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 11:22:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+
+
+2017-08-02 11:22:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-08-02 11:22:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-08-02 11:22:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 11:22:31 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-08-02 11:22:32 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-08-02 11:22:32 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 11:22:32 INFO | 69 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 11:22:32 INFO | 98 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 11:22:37 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:22:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+2017-08-02 11:22:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 11:22:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 11:22:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 11:22:40 INFO | Get all project called - find in repo
+2017-08-02 11:22:40 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 11:22:40 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 11:23:10 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 11:23:10 DEBUG| Re-use existing transit seat [9009]
+2017-08-02 11:23:10 DEBUG| Move employee with ID=[143] from seat [56] to seat [9009] started
+2017-08-02 11:23:11 DEBUG| Drag/Drop move employee with ID=[143] from seat [56] to seat [9009] completed
+
+2017-08-02 11:23:13 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:23:14 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:23:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 11:23:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:23:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 11:23:18 INFO | Get all project called - find in repo
+
+2017-08-02 11:23:18 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 11:23:18 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 11:23:18 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 11:23:38 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 11:23:38 DEBUG| Re-use existing transit seat [9010]
+2017-08-02 11:23:38 DEBUG| Move employee with ID=[32] from seat [85] to seat [9010] started
+2017-08-02 11:23:38 DEBUG| Drag/Drop move employee with ID=[32] from seat [85] to seat [9010] completed
+
+2017-08-02 11:23:40 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:23:40 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:23:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+
+2017-08-02 11:23:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-08-02 11:23:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 11:23:49 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-08-02 11:23:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+2017-08-02 11:23:49 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+2017-08-02 11:23:49 INFO | 69 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 11:23:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-08-02 11:23:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 11:23:51 INFO | 69 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 11:23:51 INFO | 98 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 11:33:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 11:33:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatChangeLog
+2017-08-02 11:33:05 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: SeatChangeLog, details: TEK.SeatPlan.Entity.SeatChangeLog
+
+2017-08-02 11:33:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-08-02 11:33:05 INFO | 2 entities retrieved by user: CORPORATE\chewang
+RootType: Location, details: TEK.SeatPlan.Entity.Location
+
+2017-08-02 11:33:05 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 11:33:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/ProjectLocation/2
+
+2017-08-02 11:33:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/2
+2017-08-02 11:33:06 INFO | 69 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+2017-08-02 11:33:06 INFO | 98 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 12:03:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 12:03:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-08-02 12:03:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 12:04:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 12:04:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 12:04:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-08-02 12:04:22 INFO | Get all project called - find in repo
+2017-08-02 12:04:22 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 12:04:22 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 12:04:22 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+
+2017-08-02 12:04:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 12:04:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 12:04:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 12:04:26 INFO | Get all project called - find in repo
+
+2017-08-02 12:04:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 12:04:26 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 12:04:26 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 12:05:02 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-08-02 12:05:02 DEBUG| Re-use existing transit seat [9011]
+2017-08-02 12:05:02 DEBUG| Move employee with ID=[76] from seat [79] to seat [9011] started
+2017-08-02 12:05:03 DEBUG| Drag/Drop move employee with ID=[76] from seat [79] to seat [9011] completed
+
+2017-08-02 12:05:06 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 12:05:06 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+
+
+
+2017-08-02 14:42:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+2017-08-02 14:42:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 14:42:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:42:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 14:42:41 INFO | Get all project called - find in repo
+2017-08-02 14:42:42 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 14:42:42 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 14:42:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+
+2017-08-02 14:42:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 14:42:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:42:43 INFO | Get all project called - find in repo
+
+2017-08-02 14:42:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+2017-08-02 14:42:43 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 14:42:43 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 14:42:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 14:42:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 14:42:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+
+2017-08-02 14:42:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 14:42:44 INFO | Get all project called - find in repo
+2017-08-02 14:42:44 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 14:42:44 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 14:42:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 14:42:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 14:42:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:42:46 INFO | Get all project called - find in repo
+
+2017-08-02 14:42:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 14:42:46 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 14:42:46 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 14:42:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/SeatLocation/0
+
+2017-08-02 14:42:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 14:42:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:42:49 INFO | Get all project called - find in repo
+
+2017-08-02 14:42:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/EmployeeStatus
+2017-08-02 14:42:49 INFO | 3 entities retrieved by user: CORPORATE\chewang
+RootType: EmployeeStatus, details: TEK.SeatPlan.Entity.EmployeeStatus
+2017-08-02 14:42:49 INFO | 206 entities retrieved by user: CORPORATE\chewang
+RootType: Seat, details: TEK.SeatPlan.Entity.Seat
+
+2017-08-02 14:42:56 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:42:56 INFO | Get all project called - find in repo
+
+2017-08-02 14:42:57 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:42:57 INFO | Get all project called - find in repo
+
+2017-08-02 14:42:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 14:42:59 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 14:43:03 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:43:03 INFO | Project Name: ADS, ID: 1 has been updated
+
+2017-08-02 14:43:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:43:03 INFO | Get all project called - find in repo
+
+2017-08-02 14:43:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:43:04 INFO | Get all project called - find in repo
+
+2017-08-02 14:43:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 14:43:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 14:43:10 DEBUG| PUT:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:43:10 INFO | Project Name: ADS, ID: 1 has been updated
+
+2017-08-02 14:43:10 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:43:10 INFO | Get all project called - find in repo
+
+2017-08-02 14:43:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/project
+2017-08-02 14:43:12 INFO | Get all project called - find in repo
+
+2017-08-02 14:43:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee
+
+2017-08-02 14:43:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/employee

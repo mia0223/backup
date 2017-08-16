@@ -1,0 +1,302 @@
+
+2017-06-19 09:32:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 09:32:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 09:32:11 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:32:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 09:32:11 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:32:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 09:32:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 09:32:29 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:32:29 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 09:32:29 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:36:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 09:36:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 09:36:01 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:36:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+
+2017-06-19 09:36:48 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+2017-06-19 09:36:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 09:36:48 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 09:36:48 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:38:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 09:38:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 09:38:11 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:38:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 09:38:11 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:41:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 09:41:58 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 09:41:58 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:42:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 09:45:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 09:45:17 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 09:45:17 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:58:32 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 09:58:33 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 09:58:33 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 09:58:33 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 09:58:33 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:07:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:07:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:07:11 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:07:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:07:11 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:08:12 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:08:13 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:08:13 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:09:25 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:09:25 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:09:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:09:51 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:09:51 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:09:54 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=3
+2017-06-19 10:09:54 INFO | 107 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:17:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:17:11 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:17:11 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+
+2017-06-19 10:18:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=3
+2017-06-19 10:18:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:18:03 INFO | 107 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:18:03 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:03 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:18:03 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:18:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:18:26 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:26 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:18:26 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:18:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:18:27 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:18:27 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:18:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:18:43 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:43 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:18:43 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:18:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:18:46 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:18:46 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:18:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:18:52 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:18:52 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:18:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:18:52 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:18:52 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:18:52 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:19:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:19:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:19:01 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:19:01 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:19:01 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:19:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:19:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:19:02 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:19:02 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:19:02 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:19:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:19:31 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:19:31 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:48:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:48:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:48:41 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:48:41 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:48:42 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:50:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:50:27 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:50:27 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:50:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:50:35 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:50:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:50:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:50:35 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:51:15 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:51:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:51:16 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:51:16 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:51:16 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:52:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:52:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:52:08 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:52:19 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:52:19 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:52:19 INFO | 67 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:52:28 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=3
+2017-06-19 10:52:28 INFO | 71 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:52:29 INFO | 107 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:52:35 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-06-19 10:52:35 DEBUG| Move employee with ID=[10] from seat [155] to seat [190] started
+2017-06-19 10:52:35 DEBUG| Target seat [190] is not empty, occupied by employee with ID=[106] (transit move expected)
+2017-06-19 10:52:35 DEBUG| Auto-Transit-Move employee with ID=[106] from seat [190] to seat [9000] started
+2017-06-19 10:52:35 DEBUG| Move employee with ID=[10] from seat [155] to seat [190] completed
+
+2017-06-19 10:52:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=3
+2017-06-19 10:52:36 INFO | 107 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:52:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 10:52:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 10:52:46 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:52:46 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:52:46 INFO | 67 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:52:46 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:52:49 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=3
+2017-06-19 10:52:49 INFO | 70 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:52:49 INFO | 107 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:55:04 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:55:04 INFO | 67 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:55:04 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:55:10 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=3
+2017-06-19 10:55:10 INFO | 70 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:55:10 INFO | 107 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:55:37 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:55:37 INFO | 67 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:55:37 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:55:39 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=3
+2017-06-19 10:55:39 INFO | 70 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:55:39 INFO | 107 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:55:42 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 10:55:42 INFO | 67 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:55:42 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 10:55:44 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=3
+2017-06-19 10:55:44 INFO | 70 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 10:55:44 INFO | 107 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 13:40:35 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 13:40:36 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 13:40:37 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 13:40:38 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 13:40:38 INFO | 67 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 13:40:38 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 13:40:45 INFO | 70 records of type: Seat retrieved by user: CORPORATE\chewang
+2017-06-19 13:40:45 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=3
+2017-06-19 13:40:45 INFO | 107 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 14:07:34 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-06-19 14:07:35 FATAL| System.ArgumentException: Source and Target seat [188] should not be the same
+
+2017-06-19 14:07:46 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/seat
+2017-06-19 14:07:46 FATAL| System.ArgumentException: Source and Target seat [188] should not be the same
+
+2017-06-19 14:22:11 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/Seat
+2017-06-19 14:23:44 FATAL| System.ArgumentException: Source and Target seat [1] should not be the same
+
+2017-06-19 14:25:23 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/Seat
+2017-06-19 14:25:51 FATAL| System.ArgumentException: Source and Target seat [1] should not be the same
+
+2017-06-19 14:47:47 DEBUG| POST:http://localhost/TEK.SeatPlan.WebApi/api/Seat
+
+2017-06-19 14:57:40 DEBUG| DELETE:http://localhost/TEK.SeatPlan.WebApi/api/Seat
+2017-06-19 14:58:06 FATAL| System.ArgumentException: Source and Target seat [1] should not be the same
+
+2017-06-19 15:17:24 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/Seat?seatNumber=5
+
+2017-06-19 15:23:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 15:23:07 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 15:23:08 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 15:23:08 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/LocationSeat?locationId=2
+2017-06-19 15:23:09 INFO | 89 records of type: Seat retrieved by user: CORPORATE\chewang
+
+2017-06-19 15:23:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/version
+
+2017-06-19 15:23:50 DEBUG| GET:http://localhost/TEK.SeatPlan.WebApi/api/location
+2017-06-19 15:23:51 INFO | 2 records of type: Location retrieved by user: CORPORATE\chewang
+
+2017-06-19 16:59:50 DEBUG| DELETE:http://localhost/TEK.SeatPlan.WebApi/api/Seat
+2017-06-19 16:59:51 FATAL| System.NullReferenceException: Object reference not set to an instance of an object.

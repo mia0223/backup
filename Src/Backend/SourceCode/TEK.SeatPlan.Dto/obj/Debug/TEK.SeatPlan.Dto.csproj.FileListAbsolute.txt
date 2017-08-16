@@ -1,0 +1,7 @@
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Dto\bin\Debug\TEK.SeatPlan.Dto.dll
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Dto\bin\Debug\TEK.SeatPlan.Dto.pdb
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Dto\bin\Debug\TEK.SeatPlan.Dto.dll.CodeAnalysisLog.xml
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Dto\bin\Debug\TEK.SeatPlan.Dto.dll.lastcodeanalysissucceeded
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Dto\obj\Debug\TEK.SeatPlan.Dto.dll
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Dto\obj\Debug\TEK.SeatPlan.Dto.pdb
+C:\Source\SeatPlan\Src\Backend\SourceCode\TEK.SeatPlan.Dto\obj\Debug\TEK.SeatPlan.Dto.csprojResolveAssemblyReference.cache

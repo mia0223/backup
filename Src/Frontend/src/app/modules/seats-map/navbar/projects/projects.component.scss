@@ -1,0 +1,38 @@
+.projects {
+    margin-left: 18px;
+    padding: 0 10px;
+    overflow-x:   auto;
+
+    .legend-item {
+        padding: 0 15px 0 0;
+        cursor: default;
+
+        &:last-child {
+            padding: 0;
+        }
+
+        &__bullet {
+            font-size: 16px;
+            float: left;
+            line-height: 18px;
+
+            &.empty {
+                color: map-get($base-colors, grey);
+            }
+        }
+
+
+        &__text {
+            font-size: 12px;
+            line-height: 20px;
+            margin-left: 18px;
+            white-space: nowrap;
+            display: block;
+        }
+
+        &__delimiter {
+            border-left: 1px solid map-get($base-colors, grey);
+            padding-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.locations-wrapper {
+
+    & h1 {
+        font-size: 12px;
+        color: #AAA;
+        margin-bottom: 2px;
+    }
+
+    .form-control {
+        border-radius: 0;
+    }
+}
+
+.seat-map {
+    overflow-y: hidden;
+}
+
+.history-log-icon-wrapper {
+    position: relative;
+    left: 15px;
+    top: -2px;
+    height: 70px;
+}
+
+.history-log-icon-wrapper:hover {
+    background-color: #F7F7F5;
+    cursor: pointer;
+}
+
+.history-log-icon {
+    font-size: 28px;
+    margin-left: 35px;
+}
+
+.history-log {
+    height: 100%;
+    width: 300px;
+    background-color: #F7F7F5;
+    border-left: 1px solid #ddd;
+}

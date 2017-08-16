@@ -1,0 +1,11 @@
+<div class = "confirmationDialog"  fxLayout="column">
+  <span class = "heading" fxFlex = "20" >Confirmation Message</span>
+  <md-dialog-content fxFlex = "70" fxLayout="column" fxLayoutAlign="center" class="content">
+    <span>Are you sure you want to delete <b>{{itemToDelete}}</b> ?</span>
+  </md-dialog-content>
+  <br>
+  <div fxLayoutAlign="end center">
+    <button md-button class='mat-primary' (click)="cancelConfirmation()">CANCEL</button>
+    <button md-button class='mat-primary' (click)="confirmChanges()">CONFIRM</button>
+  </div>
+</div>

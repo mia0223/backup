@@ -1,0 +1,13 @@
+.search-bar {
+    &__label {
+        float: left;
+
+        i {
+            margin-top: 5px;
+        }
+    }
+
+    &__input {
+        margin-left: 28px;
+    }
+}

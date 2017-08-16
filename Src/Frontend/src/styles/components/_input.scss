@@ -1,0 +1,45 @@
+.mat-input-container {
+    width: 100%;
+}
+
+.mat-input-wrapper {
+    margin: 6px 0 0 !important;
+}
+
+.mat-input-static-text {
+    display: none;
+    margin: 10px 0 0 !important;
+}
+
+
+.mat-input-static-text {
+    .mat-input-element {
+        &:disabled {
+            color: map-get($base-colors, black) !important;
+        }
+    }
+
+    .mat-input-underline {
+        &.mat-disabled {
+            background-image: none !important;
+        }
+    }
+
+    &.seat-number{
+      width:35%;
+    }
+}
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.warningLabel{
+  font-size: 12px;
+  position: absolute;
+  margin-top: 7px;
+  color: red;
+  font-weight: bold;
+}
+
+
