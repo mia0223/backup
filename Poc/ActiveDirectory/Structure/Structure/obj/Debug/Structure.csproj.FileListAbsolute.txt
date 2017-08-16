@@ -1,0 +1,1 @@
+C:\Source\SeatPlan\Poc\ActiveDirectory\Structure\Structure\obj\Debug\Structure.csprojResolveAssemblyReference.cache

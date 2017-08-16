@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75E1B4D5-5AE5-473D-B489-36E8AE90C1E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tek.SeatPlan.Business</RootNamespace>
+    <AssemblyName>Tek.SeatPlan.Business.Implementation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleObjectLogic.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tek.SeatPlan.Business\Tek.SeatPlan.Business.csproj">
+      <Project>{F83C4F27-9F21-49DE-A352-F7A8649F6BA6}</Project>
+      <Name>Tek.SeatPlan.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tek.SeatPlan.Dtos\Tek.SeatPlan.Dtos.csproj">
+      <Project>{47EF6A1F-5AF4-4E3E-8667-E11734E643F8}</Project>
+      <Name>Tek.SeatPlan.Dtos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tek.SeatPlan.Models\Tek.SeatPlan.Models.csproj">
+      <Project>{2C96A2AA-D6C6-427B-A40E-A118488CB943}</Project>
+      <Name>Tek.SeatPlan.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tek.SeatPlan.ResourceGateway\Tek.SeatPlan.ResourceGateway.csproj">
+      <Project>{CB82C6A8-3102-449D-B2EA-76117B3E630C}</Project>
+      <Name>Tek.SeatPlan.ResourceGateway</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper">
+      <Version>6.0.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
